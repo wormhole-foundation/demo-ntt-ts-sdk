@@ -1,0 +1,47 @@
+{
+  "network": "Testnet",
+  "chains": {
+    "BaseSepolia": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0xAB12CD34EF56GH78IJ90KL12MN34OP56QR78ST90",
+      "manager": "0x98BA7C65F43210EDCB8765F4A3E9876C12AB56CD",
+      "token": "0x1234567890abcdef1234567890abcdef12345678",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xabcdef1234567890abcdef1234567890abcdef12",
+          "pauser": "0xAB12CD34EF56GH78IJ90KL12MN34OP56QR78ST90"
+        }
+      },
+      "limits": {
+        "outbound": "184467440737.095516150000000000",
+        "inbound": {
+          "Solana": "1000.000000000000000000"
+        }
+      },
+      "pauser": "0xAB12CD34EF56GH78IJ90KL12MN34OP56QR78ST90"
+    },
+    "Solana": {
+      "version": "2.0.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "4d6f2E8F3d7F1e2Cd7c67D36fE4c1A678C8e8E3F",
+      "manager": "7gHdE5F2w3D5e67F4C5f3eE9d1eD8C7eA2f9cD7F",
+      "token": "6f7gH4D5f6c3D2e6a7e4F8G3d2e7c4F5d3F6b5eC",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "B3Cd6eF7G4c2E8d7A5f6F4C3eD7F4B6cE8d3f6G7"
+        }
+      },
+      "limits": {
+        "outbound": "1000.100000000",
+        "inbound": {
+          "BaseSepolia": "1000.000000000"
+        }
+      }
+    }
+  }
+}
