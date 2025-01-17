@@ -20,6 +20,7 @@ export const TEST_NTT_TOKENS: NttContracts = {
     transceiver: {
       wormhole: "NTueGPu3ckEwiQXprSjAfHC7YybrJNAG39X2AKEG9So",
     },
+    quoter: "Nqd6XqA8LbsCuG8MLWWuP865NV6jR1MbXeKxD4HLKDJ"
   },
   BaseSepolia: {
     token: "0xaBc1234567890fDb48D63F11dFdc364201C9DE67",
