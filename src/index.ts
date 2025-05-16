@@ -15,9 +15,19 @@ import {
 
 
   (async function () {
-    const wh = new Wormhole("Testnet", [solana.Platform, evm.Platform]);
-    const src = wh.getChain("BaseSepolia");
-    const dst = wh.getChain("Solana");
+    const wh = new Wormhole("Testnet", [solana.Platform, evm.Platform], {
+      // optional way to use private RPCs, especially recommended for mainnet 
+      "chains": {
+        "Monad": {
+          "rpc": "http://127.0.0.1:8546"
+        },
+        "Solana": {
+          "rpc": "http://127.0.0.1:8899"
+        }
+      }
+    });
+    const src = wh.getChain("Solana");
+    const dst = wh.getChain("Monad");
 
     const srcSigner = await getSigner(src);
     const dstSigner = await getSigner(dst);
@@ -29,8 +39,9 @@ import {
       ntt: TEST_NTT_TOKENS[dst.chain],
     });
   
+    //TODO: change to token amount that should be transferred
     const amt = amount.units(
-      amount.parse("7", await srcNtt.getTokenDecimals())
+      amount.parse("1.1", await srcNtt.getTokenDecimals())
     );
   
     const xfer = () =>

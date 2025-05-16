@@ -15,16 +15,16 @@ export const DEVNET_ETH_PRIVATE_KEY =
 
 export const TEST_NTT_TOKENS: NttContracts = {
   Solana: {
-    token: "5trJHKSB7M6w1sC74YkxZb5D7GxA9bL6WzP4ht8FDs5V",
-    manager: "NTueGPu3ckEwiQXprSjAfHC7YybrJNAG39X2AKEG9So",
+    token: "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+    manager: "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
     transceiver: {
-      wormhole: "NTueGPu3ckEwiQXprSjAfHC7YybrJNAG39X2AKEG9So",
+      wormhole: "3vJjDYwPKkhBykQU1BkJAnCrMp9U4qZn9hFMbvQJCyU3",
     },
     quoter: "Nqd6XqA8LbsCuG8MLWWuP865NV6jR1MbXeKxD4HLKDJ"
   },
-  BaseSepolia: {
-    token: "0xaBc1234567890fDb48D63F11dFdc364201C9DE67",
-    manager: "0xD456789a1230Cc48fDb48D63F11dFdc364201C9DE",
-    transceiver: { wormhole: "0x9876aBcDeF01234567890Fdb48D63F11dFdc3642" },
+  Monad: {
+    token: "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+    manager: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    transceiver: { wormhole: "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619" },
   },
 };
