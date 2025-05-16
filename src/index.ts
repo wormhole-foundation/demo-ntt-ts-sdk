@@ -50,8 +50,15 @@ import {
         automatic: false,
         gasDropoff: 0n,
       });
+
+    // Get calldata for simulation on tenderly (optional)
+    const firstTx = await xfer().next();
+    if (!firstTx.done) {
+      const txData = firstTx.value.transaction.data;
+      console.log("Transfer Calldata for EVM simulation:", txData);
+    }
   
-    // Initiate the transfer (or set to recoverTxids to complete transfer)
+    // Initiate the transfer
     const txids: TransactionId[] = await signSendWait(src, xfer(), srcSigner.signer);
     console.log("Source txs", txids);
   
