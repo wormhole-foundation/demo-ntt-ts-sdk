@@ -9,25 +9,24 @@ import {
   
   // register protocol implementations
   import "@wormhole-foundation/sdk-evm-ntt";
-  import "@wormhole-foundation/sdk-solana-ntt";
   import { TEST_NTT_TOKENS } from "./utils/const";
   import { getSigner } from "./utils/helpers";
 
 
   (async function () {
-    const wh = new Wormhole("Testnet", [solana.Platform, evm.Platform], {
+    const wh = new Wormhole("Mainnet", [solana.Platform, evm.Platform], {
       // optional way to use private RPCs, especially recommended for mainnet 
-      "chains": {
-        "Monad": {
-          "rpc": "http://127.0.0.1:8546"
-        },
-        "Solana": {
-          "rpc": "http://127.0.0.1:8899"
-        }
-      }
+      // "chains": {
+      //   "Monad": {
+      //     "rpc": "http://127.0.0.1:8546"
+      //   },
+      //   "Solana": {
+      //     "rpc": "http://127.0.0.1:8899"
+      //   }
+      // }
     });
-    const src = wh.getChain("Solana");
-    const dst = wh.getChain("Monad");
+    const src = wh.getChain("Mezo");
+    const dst = wh.getChain("Ethereum");
 
     const srcSigner = await getSigner(src);
     const dstSigner = await getSigner(dst);
@@ -48,7 +47,6 @@ import {
       srcNtt.transfer(srcSigner.address.address, amt, dstSigner.address, {
         queue: false,
         automatic: false,
-        gasDropoff: 0n,
       });
 
     // Get calldata for simulation on tenderly (optional)
