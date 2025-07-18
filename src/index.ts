@@ -9,6 +9,7 @@ import {
   
   // register protocol implementations
   import "@wormhole-foundation/sdk-evm-ntt";
+  import "@wormhole-foundation/sdk-solana-ntt";
   import { TEST_NTT_TOKENS } from "./utils/const";
   import { getSigner } from "./utils/helpers";
 
