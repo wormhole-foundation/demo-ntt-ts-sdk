@@ -48,7 +48,6 @@ import {
       srcNtt.transfer(srcSigner.address.address, amt, dstSigner.address, {
         queue: false,
         automatic: false,
-        gasDropoff: 0n,
       });
 
     // Get calldata for simulation on tenderly (optional)
