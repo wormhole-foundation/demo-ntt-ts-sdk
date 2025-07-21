@@ -87,10 +87,24 @@ Ensure you have the following installed on your system:
      });
      ```
 
-## Running the Script
+## Running the Scripts
+
+This project provides two different NTT transfer examples:
+
+### 1. Basic NTT Transfer (`index.ts`)
+
+Simple NTT transfer between chains:
 
 ```bash
-npx ts-node index.ts
+npx ts-node src/index.ts
+```
+
+### 2. NTT Executor Transfer (`index-executor.ts`)
+
+NTT transfers using the Executor for automatic relaying
+
+```bash
+npx ts-node src/index-executor.ts
 ```
 
 ## Configuration Options
