@@ -36,6 +36,7 @@ import { routes } from "@wormhole-foundation/sdk";
   const srcSigner = await getSigner(src);
   // TODO: change destination address 
   const dstAddress: ChainAddress = Wormhole.chainAddress("Sepolia","0x5e8C54C443E8c42ccA73Fa9399C8D61C94aD9f36");
+  console.log("Source signer address:", srcSigner.address.address);
 
   const srcNtt = await src.getProtocol("Ntt", {
      ntt: TEST_NTT_TOKENS[src.chain],

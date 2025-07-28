@@ -41,7 +41,7 @@ Ensure you have the following installed on your system:
      Update the `TEST_NTT_TOKENS` object in the `const.ts` file with your token, manager, and transceiver details from the `deployment.json` file:
 
      ```typescript
-     export const TEST_NTT_SPL22_TOKENS: NttContracts = {
+     export const TEST_NTT_TOKENS: NttContracts = {
        Solana: {
          token: "NTTSolanaTokenAddress",
          manager: "NTTSolanaManagerAddress",
