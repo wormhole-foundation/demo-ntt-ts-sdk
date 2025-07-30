@@ -87,6 +87,19 @@ Ensure you have the following installed on your system:
      });
      ```
 
+## Executor Configuration
+
+When using the NTT executor route with SVM chains as destinations, you may need to configure `msgValue` overrides. The `msgValue` must exceed the lamports required for the transaction, including priority fees, rent, and other Solana-specific costs:
+
+```typescript
+executorConfig.referrerFee = {
+  feeDbps: 0n,
+  perTokenOverrides: {
+    Solana: { [tokenAddress]: { msgValue: 11_500_000n } }
+  }
+};
+```
+
 ## Running the Scripts
 
 This project provides two different NTT transfer examples:

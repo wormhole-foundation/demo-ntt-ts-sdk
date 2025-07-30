@@ -32,10 +32,10 @@ import { routes } from "@wormhole-foundation/sdk";
     //   }
   });
   const src = wh.getChain("Solana");
-  const dst = wh.getChain("Sepolia");
+  const dst = wh.getChain("Monad");
   const srcSigner = await getSigner(src);
   // TODO: change destination address 
-  const dstAddress: ChainAddress = Wormhole.chainAddress("Sepolia","0x5e8C54C443E8c42ccA73Fa9399C8D61C94aD9f36");
+  const dstAddress: ChainAddress = Wormhole.chainAddress("Monad","0x5e8C54C443E8c42ccA73Fa9399C8D61C94aD9f36");
   console.log("Source signer address:", srcSigner.address.address);
 
   const srcNtt = await src.getProtocol("Ntt", {
@@ -45,7 +45,20 @@ import { routes } from "@wormhole-foundation/sdk";
      ntt: TEST_NTT_TOKENS[src.chain],
   });
 
-  const executorRoute = nttExecutorRoute(convertToExecutorConfig(TEST_NTT_TOKENS));
+  let executorConfig = convertToExecutorConfig(TEST_NTT_TOKENS);
+  // TODO: optional override of the msgValue for transfers to Solana
+  // NTT transfers to EVM chains should set the msgValue to 0
+  executorConfig.referrerFee = {
+    feeDbps: 0n, // No referrer fee
+    perTokenOverrides: {
+      Solana: {
+        [TEST_NTT_TOKENS.Solana?.token || ""]: {
+          msgValue: 10_000_000n + 1_500_000n, 
+        }
+      }
+    }
+  };
+  const executorRoute = nttExecutorRoute(executorConfig);
   const routeInstance = new executorRoute(wh);
 
   // Create transfer request
