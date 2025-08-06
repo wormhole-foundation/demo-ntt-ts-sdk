@@ -41,7 +41,7 @@ Ensure you have the following installed on your system:
      Update the `TEST_NTT_TOKENS` object in the `const.ts` file with your token, manager, and transceiver details from the `deployment.json` file:
 
      ```typescript
-     export const TEST_NTT_SPL22_TOKENS: NttContracts = {
+     export const TEST_NTT_TOKENS: NttContracts = {
        Solana: {
          token: "NTTSolanaTokenAddress",
          manager: "NTTSolanaManagerAddress",
@@ -87,10 +87,37 @@ Ensure you have the following installed on your system:
      });
      ```
 
-## Running the Script
+## Executor Configuration
+
+When using the NTT executor route with SVM chains as destinations, you may need to configure `msgValue` overrides. The `msgValue` must exceed the lamports required for the transaction, including priority fees, rent, and other Solana-specific costs:
+
+```typescript
+executorConfig.referrerFee = {
+  feeDbps: 0n,
+  perTokenOverrides: {
+    Solana: { [tokenAddress]: { msgValue: 11_500_000n } }
+  }
+};
+```
+
+## Running the Scripts
+
+This project provides two different NTT transfer examples:
+
+### 1. Basic NTT Transfer (`index.ts`)
+
+Simple NTT transfer between chains:
 
 ```bash
-npx ts-node index.ts
+npx ts-node src/index.ts
+```
+
+### 2. NTT Executor Transfer (`index-executor.ts`)
+
+NTT transfers using the Executor for automatic relaying
+
+```bash
+npx ts-node src/index-executor.ts
 ```
 
 ## Configuration Options

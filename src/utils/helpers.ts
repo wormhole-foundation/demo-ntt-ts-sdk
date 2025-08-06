@@ -12,7 +12,7 @@ import {
   import evm from "@wormhole-foundation/sdk/platforms/evm";
   import solana from "@wormhole-foundation/sdk/platforms/solana";
 import { NttContracts, DEVNET_SOL_PRIVATE_KEY, DEVNET_ETH_PRIVATE_KEY, TEST_NTT_TOKENS} from "./const";
-import { NttRoute } from "@wormhole-foundation/sdk-route-ntt";
+import { NttExecutorRoute, NttRoute } from "@wormhole-foundation/sdk-route-ntt";
   
   export interface SignerStuff<N extends Network, C extends Chain> {
     chain: ChainContext<N, C>;
@@ -84,3 +84,34 @@ function reformat(contracts: NttContracts) {
 export const NttTokens = {
   Test: reformat(TEST_NTT_TOKENS),
 };
+
+// helper function to convert NttContracts to NttExecutorRoute.Config format
+export function convertToExecutorConfig(nttContracts: NttContracts): NttExecutorRoute.Config {
+  const tokenName: string = "MyToken";
+  const tokens = Object.entries(nttContracts)
+    .filter(([_, contracts]) => contracts !== undefined)
+    .map(([chain, contracts]) => {
+      const executorToken = {
+        chain: chain as Chain,
+        token: contracts!.token,
+        manager: contracts!.manager,
+              transceiver: Object.entries(contracts!.transceiver).map(([type, address]) => ({
+        type: type as "wormhole",
+        address: address as string,
+      })),
+      };
+      // Add quoter if it exists
+      if ('quoter' in contracts! && contracts!.quoter) {
+        (executorToken as any).quoter = contracts!.quoter;
+      }
+      return executorToken;
+    });
+
+  return {
+    ntt: {
+      tokens: {
+        [tokenName]: tokens
+      }
+    }
+  };
+}
