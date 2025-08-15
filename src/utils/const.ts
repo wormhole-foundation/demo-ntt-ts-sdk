@@ -15,16 +15,16 @@ export const DEVNET_ETH_PRIVATE_KEY =
 
 export const TEST_NTT_TOKENS: NttContracts = {
   Solana: {
-    token: "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
-    manager: "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+    token: "A2HZpxCvPJb5AFcYh5y4nwXo5S5GKwEJTmQSoc5sJP6c",
+    manager: "nUCpJhfTWwwzQe8SDJhUy6oopAjEH8bqiPYpdqC2NVx",
     transceiver: {
-      wormhole: "3vJjDYwPKkhBykQU1BkJAnCrMp9U4qZn9hFMbvQJCyU3",
+      wormhole: "3GAribA1FSUWnsdWHc7Z1HzLgw9oTz8NeSCSy4ynvrhZ",
     },
     quoter: "Nqd6XqA8LbsCuG8MLWWuP865NV6jR1MbXeKxD4HLKDJ"
   },
-  Monad: {
-    token: "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
-    manager: "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
-    transceiver: { wormhole: "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619" },
+  Sui: {
+    token: "0x11cba8b692e316cedeed6f2156881817f8da45c1901df50cb332081a3c410dc2::my_coin::MY_COIN",
+    manager: "0x86fc85ca285f5e596ad23d564cc6789a65ae3cfc3509d2668b9c21085d4b82f7",
+    transceiver: { wormhole: "0xae965f041e0a9031c0ff72960d3b70a42b7b94ba577c63a2611460d07c520aa6" },
   },
 };
