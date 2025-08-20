@@ -11,7 +11,8 @@ import {
   
   import evm from "@wormhole-foundation/sdk/platforms/evm";
   import solana from "@wormhole-foundation/sdk/platforms/solana";
-import { NttContracts, DEVNET_SOL_PRIVATE_KEY, DEVNET_ETH_PRIVATE_KEY, TEST_NTT_TOKENS} from "./const";
+  import sui from "@wormhole-foundation/sdk/platforms/sui";
+import { NttContracts, DEVNET_SOL_PRIVATE_KEY, DEVNET_ETH_PRIVATE_KEY, TEST_NTT_TOKENS, TESTNET_SUI_MNEMONIC} from "./const";
 import { NttExecutorRoute, NttRoute } from "@wormhole-foundation/sdk-route-ntt";
   
   export interface SignerStuff<N extends Network, C extends Chain> {
@@ -40,6 +41,12 @@ import { NttExecutorRoute, NttRoute } from "@wormhole-foundation/sdk-route-ntt";
         signer = await evm.getSigner(
           await chain.getRpc(),
           getEnv("ETH_PRIVATE_KEY", DEVNET_ETH_PRIVATE_KEY)
+        );
+        break;
+      case "Sui":
+        signer = await sui.getSigner(
+          await chain.getRpc(),
+          getEnv("SUI_MNEMONIC", TESTNET_SUI_MNEMONIC)
         );
         break;
       default:

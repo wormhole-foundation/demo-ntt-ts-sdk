@@ -37,7 +37,7 @@ import { routes } from "@wormhole-foundation/sdk";
   const dst = wh.getChain("Sui");
   const srcSigner = await getSigner(src);
   // TODO: change destination address 
-  const dstAddress: ChainAddress = Wormhole.chainAddress("Sui","0x76799729095246ca7e5f51ecacb1b78fa9f9c8add367fc7a657a3991b1338882");
+  const dstAddress: ChainAddress = Wormhole.chainAddress("Sui","0xa43");
   console.log("Source signer address:", srcSigner.address.address);
 
   const srcNtt = await src.getProtocol("Ntt", {
@@ -72,7 +72,7 @@ import { routes } from "@wormhole-foundation/sdk";
   });
 
   //TODO: change to token amount that should be transferred
-  const amtString = "0.5";
+  const amtString = "1.7";
   const amt = amount.units(
     amount.parse(amtString, await srcNtt.getTokenDecimals())
   );

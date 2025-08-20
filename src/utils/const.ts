@@ -13,18 +13,20 @@ export const DEVNET_SOL_PRIVATE_KEY = encoding.b58.encode(
 export const DEVNET_ETH_PRIVATE_KEY =
   "0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d"; // Ganache default private key
 
+export const TESTNET_SUI_MNEMONIC = ""; 
+
 export const TEST_NTT_TOKENS: NttContracts = {
   Solana: {
-    token: "A2HZpxCvPJb5AFcYh5y4nwXo5S5GKwEJTmQSoc5sJP6c",
-    manager: "nUCpJhfTWwwzQe8SDJhUy6oopAjEH8bqiPYpdqC2NVx",
+    token: "8xLhmGP4yBN5V3YQJHXtuPXyr37bfqpJofijhCBa2wHQ",
+    manager: "nwiUea8Fw6gGZ2kSj564KWmvS8t5xDjz7FkahPVi7Vo",
     transceiver: {
-      wormhole: "3GAribA1FSUWnsdWHc7Z1HzLgw9oTz8NeSCSy4ynvrhZ",
+      wormhole: "77zEXrKfkNkZdj7LjZC9iGcfBhpcoPrvhDdEJjsq3geF",
     },
     quoter: "Nqd6XqA8LbsCuG8MLWWuP865NV6jR1MbXeKxD4HLKDJ"
   },
   Sui: {
-    token: "0x11cba8b692e316cedeed6f2156881817f8da45c1901df50cb332081a3c410dc2::my_coin::MY_COIN",
-    manager: "0x86fc85ca285f5e596ad23d564cc6789a65ae3cfc3509d2668b9c21085d4b82f7",
-    transceiver: { wormhole: "0xae965f041e0a9031c0ff72960d3b70a42b7b94ba577c63a2611460d07c520aa6" },
+    token: "0x261fd9b846984d607728733ab0cf019970caa9fbfef75ca8915762af964e190e::my_coin::MY_COIN",
+    manager: "0xa1b18a0f0791394aa7b271cad6bfc4bf592e554d34c6538359c5d282a559b815",
+    transceiver: { wormhole: "0x9fadc042b53ea139cef122b54f24843533c7a10200c2671628264c9d8b87e21b" },
   },
 };
