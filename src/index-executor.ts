@@ -25,7 +25,7 @@ import { routes } from "@wormhole-foundation/sdk";
   const wh = new Wormhole(network, [solana.Platform, evm.Platform, sui.Platform], {
     // optional way to use private RPCs, especially recommended for mainnet 
     //   "chains": {
-    //     "Monad": {
+    //     "Sui": {
     //       "rpc": "http://127.0.0.1:8546"
     //     },
     //     "Solana": {
