@@ -6,28 +6,30 @@ import {
   } from "@wormhole-foundation/sdk";
   import evm from "@wormhole-foundation/sdk/platforms/evm";
   import solana from "@wormhole-foundation/sdk/platforms/solana";
+  import sui from "@wormhole-foundation/sdk/platforms/sui";
   
   // register protocol implementations
   import "@wormhole-foundation/sdk-evm-ntt";
   import "@wormhole-foundation/sdk-solana-ntt";
+  import "@wormhole-foundation/sdk-sui-ntt";
   import { TEST_NTT_TOKENS } from "./utils/const";
   import { getSigner } from "./utils/helpers";
 
 
   (async function () {
-    const wh = new Wormhole("Testnet", [solana.Platform, evm.Platform], {
+    const wh = new Wormhole("Testnet", [solana.Platform, evm.Platform, sui.Platform], {
       // optional way to use private RPCs, especially recommended for mainnet 
-      "chains": {
-        "Monad": {
-          "rpc": "http://127.0.0.1:8546"
-        },
-        "Solana": {
-          "rpc": "http://127.0.0.1:8899"
-        }
-      }
+      // "chains": {
+      //   "Sui": {
+      //     "rpc": "http://127.0.0.1:8546"
+      //   },
+      //   "Solana": {
+      //     "rpc": "http://127.0.0.1:8899"
+      //   }
+      // }
     });
     const src = wh.getChain("Solana");
-    const dst = wh.getChain("Monad");
+    const dst = wh.getChain("Sui");
 
     const srcSigner = await getSigner(src);
     const dstSigner = await getSigner(dst);
@@ -41,7 +43,7 @@ import {
   
     //TODO: change to token amount that should be transferred
     const amt = amount.units(
-      amount.parse("1.1", await srcNtt.getTokenDecimals())
+      amount.parse("1.32", await srcNtt.getTokenDecimals())
     );
   
     const xfer = () =>

@@ -3,17 +3,18 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk": "3.0.4",
-    "@wormhole-foundation/sdk-definitions-ntt": "^1.0.6",
-    "@wormhole-foundation/sdk-evm-ntt": "^1.0.6",
-    "@wormhole-foundation/sdk-route-ntt": "^1.0.6",
-    "@wormhole-foundation/sdk-solana-ntt": "^1.0.6",
+    "@wormhole-foundation/sdk": "3.4.1",
+    "@wormhole-foundation/sdk-definitions-ntt": "2.0.0",
+    "@wormhole-foundation/sdk-evm-ntt": "2.0.0",
+    "@wormhole-foundation/sdk-route-ntt": "2.0.0",
+    "@wormhole-foundation/sdk-solana-ntt": "2.0.0",
+    "@wormhole-foundation/sdk-sui-ntt": "2.0.0",
     "dotenv": "^16.4.5",
     "rpc-websockets": "7.11.0"
   },
   "overrides": {
-    "@wormhole-foundation/sdk": "3.0.4",
-    "@wormhole-foundation/sdk-base": "3.0.4",
-    "@wormhole-foundation/sdk-definitions": "3.0.4"
+    "@wormhole-foundation/sdk": "3.4.1",
+    "@wormhole-foundation/sdk-base": "3.4.1",
+    "@wormhole-foundation/sdk-definitions": "3.4.1"
   }
 }

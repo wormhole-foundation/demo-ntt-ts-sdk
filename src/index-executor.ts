@@ -7,10 +7,12 @@ import {
 } from "@wormhole-foundation/sdk";
 import evm from "@wormhole-foundation/sdk/platforms/evm";
 import solana from "@wormhole-foundation/sdk/platforms/solana";
+import sui from "@wormhole-foundation/sdk/platforms/sui";
 
 // register protocol implementations
 import "@wormhole-foundation/sdk-evm-ntt";
 import "@wormhole-foundation/sdk-solana-ntt";
+import "@wormhole-foundation/sdk-sui-ntt";
 import { NttExecutorRoute, nttExecutorRoute } from "@wormhole-foundation/sdk-route-ntt";
 import { TEST_NTT_TOKENS } from "./utils/const";
 import { getSigner, convertToExecutorConfig } from "./utils/helpers";
@@ -20,10 +22,10 @@ import { routes } from "@wormhole-foundation/sdk";
 (async function () {
   // TODO: change to "Mainnet" for mainnet
   const network = "Testnet"; 
-  const wh = new Wormhole(network, [solana.Platform, evm.Platform], {
+  const wh = new Wormhole(network, [solana.Platform, evm.Platform, sui.Platform], {
     // optional way to use private RPCs, especially recommended for mainnet 
     //   "chains": {
-    //     "Monad": {
+    //     "Sui": {
     //       "rpc": "http://127.0.0.1:8546"
     //     },
     //     "Solana": {
@@ -32,10 +34,10 @@ import { routes } from "@wormhole-foundation/sdk";
     //   }
   });
   const src = wh.getChain("Solana");
-  const dst = wh.getChain("Monad");
+  const dst = wh.getChain("Sui");
   const srcSigner = await getSigner(src);
   // TODO: change destination address 
-  const dstAddress: ChainAddress = Wormhole.chainAddress("Monad","0x5e8C54C443E8c42ccA73Fa9399C8D61C94aD9f36");
+  const dstAddress: ChainAddress = Wormhole.chainAddress("Sui","0xa43");
   console.log("Source signer address:", srcSigner.address.address);
 
   const srcNtt = await src.getProtocol("Ntt", {
@@ -70,7 +72,7 @@ import { routes } from "@wormhole-foundation/sdk";
   });
 
   //TODO: change to token amount that should be transferred
-  const amtString = "0.07";
+  const amtString = "1.7";
   const amt = amount.units(
     amount.parse(amtString, await srcNtt.getTokenDecimals())
   );
