@@ -614,7 +614,7 @@
     poseidon-lite "^0.2.0"
     valibot "^0.36.0"
 
-"@mysten/sui@^1.21.2":
+"@mysten/sui@^1.37.2":
   version "1.37.4"
   resolved "https://registry.yarnpkg.com/@mysten/sui/-/sui-1.37.4.tgz#120cbac8e9815576853b491156496739c48525af"
   integrity sha512-3dKddNEF7XTfPnYIfVyHHTX+9fraQrKFxiBJ8nveISqo4skyClH/nDyS8Nkh7coknbWghuSSsD82liCOZX2uLw==
@@ -1012,125 +1012,125 @@
   dependencies:
     "@types/node" "*"
 
-"@wormhole-foundation/sdk-algorand-core@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand-core/-/sdk-algorand-core-3.4.1.tgz#e42cc4bfa656d98eaa215d3c7bedff0ed5e935f9"
-  integrity sha512-Y+726AlxvgXabqdBoCnEjaZmJJ+SfV0hnBh+DqLPcjG4r9dOpt1FgQT29LB6WRkyvXRIEOVa6D+XzLTUFa+sJQ==
+"@wormhole-foundation/sdk-algorand-core@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand-core/-/sdk-algorand-core-3.4.3.tgz#91cd24375480abd8e220c45976cc8509bfe99b05"
+  integrity sha512-rdEiGPkEmnZE++PkioSVagPTQVKrr2ml5sHW6pGxzAdwSSpBT2GVsl3tfAUYDVwiIJjqck8po3DAQEC99iljPg==
   dependencies:
-    "@wormhole-foundation/sdk-algorand" "3.4.1"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-algorand" "3.4.3"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
 
-"@wormhole-foundation/sdk-algorand-tokenbridge@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand-tokenbridge/-/sdk-algorand-tokenbridge-3.4.1.tgz#874f799d319b724fcaa5965eec82a623aa2cad74"
-  integrity sha512-M49oP8u9OzyHa7kLJUl75ssPo79O/Z40BVD5xxE999jnKxN9p7UmojjCn3arV2hiHb8H1UU8Z+1QE8GxdP0awA==
+"@wormhole-foundation/sdk-algorand-tokenbridge@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand-tokenbridge/-/sdk-algorand-tokenbridge-3.4.3.tgz#3296b4924493744851974a40d807dab085093f6b"
+  integrity sha512-gWJfcoFLlpfD4EpWNNZBlkvCoROa/0VsvPFygHKeOse0k47KvHQLOBrTII2AKAnFZQ3IyP5J9LNHA2feENTAzw==
   dependencies:
-    "@wormhole-foundation/sdk-algorand" "3.4.1"
-    "@wormhole-foundation/sdk-algorand-core" "3.4.1"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-algorand" "3.4.3"
+    "@wormhole-foundation/sdk-algorand-core" "3.4.3"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
 
-"@wormhole-foundation/sdk-algorand@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand/-/sdk-algorand-3.4.1.tgz#1992af30c438252aee3b4c5b9fa56e681cee5c67"
-  integrity sha512-6bGZa0Z0y49GgJ0w9cxxejvBkfofijGl3KMGgV5I/uiDhrdV6gClf50/sleCH1ZYCW0EsDdp0u4IL5vuNPIuXw==
+"@wormhole-foundation/sdk-algorand@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-algorand/-/sdk-algorand-3.4.3.tgz#5fabdea69759afb83a4f1f83cbbd49debb156289"
+  integrity sha512-oE9orhVNBWWxJbI9bulNpSmXTdYpYP0J0NeQlT3GMVe7taQj2hThixVRAtQTyhSn2CA4VImnJ6Wc9Fm9JiTGRw==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
     algosdk "2.7.0"
 
-"@wormhole-foundation/sdk-aptos-cctp@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-cctp/-/sdk-aptos-cctp-3.4.1.tgz#e726b2a02177663563fb0622886b56275a177b7d"
-  integrity sha512-Qo8+qZc0L6ZMGs9YJQny2Wr+DnGjnTc6z8wT0WayAOiQXhtvPkZqjrA7es75WZVeHnO6CD3n5lqPxI5364JOHQ==
+"@wormhole-foundation/sdk-aptos-cctp@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-cctp/-/sdk-aptos-cctp-3.4.3.tgz#2f0676c2385a61964ddc394b8d1dcbc330525c4b"
+  integrity sha512-MrehMA4HMgaS+VQi4VHdzO3a7VoA6PU2Yr4aPxcS9GulKYt0eMRSbajX+j2SMWJNSJHsGhLIoYz/DmXg1BMtVw==
   dependencies:
     "@aptos-labs/ts-sdk" "^2.0.0"
-    "@wormhole-foundation/sdk-aptos" "3.4.1"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-aptos" "3.4.3"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
 
-"@wormhole-foundation/sdk-aptos-core@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-core/-/sdk-aptos-core-3.4.1.tgz#eccead4a59f7118cbb2f3d06e08e50a6a7034344"
-  integrity sha512-RanttUnvFffS6bR3WT2PLdiXbsnWY/rxflBrqa6TEXUgB8o2tw3ZNnEyWTINCwmzM7PJO4dLCEmePCRIGSIydw==
+"@wormhole-foundation/sdk-aptos-core@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-core/-/sdk-aptos-core-3.4.3.tgz#2e69e7eea565967b2321b1f34515c2be589e7124"
+  integrity sha512-Sp8S8NzFSXPiuOM0k0T3xJpogpFSDQoVCwvMrJV8kgf3hX44Piu5we0gYawHJdUIvrw8cTi5MVMPC/KGkh980Q==
   dependencies:
-    "@wormhole-foundation/sdk-aptos" "3.4.1"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-aptos" "3.4.3"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
 
-"@wormhole-foundation/sdk-aptos-tokenbridge@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-tokenbridge/-/sdk-aptos-tokenbridge-3.4.1.tgz#0059f741ef5d54ccee90ef95f3073d0668d37f2c"
-  integrity sha512-ZiuehIOmXlzr8D4XyTEnOTDF9hkksMLSSG5ZQHYIkABWy+zEkh6Qol153c821mV3Dkmtwoyb/2ggHTH/pLIRrg==
+"@wormhole-foundation/sdk-aptos-tokenbridge@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos-tokenbridge/-/sdk-aptos-tokenbridge-3.4.3.tgz#588fbbd8b0dae303afa4cf69b43295578696b9a9"
+  integrity sha512-dYpX3KyetQfbI9Ajdn3ZZgma65oCM7mphzd9xT8eXXY8kRIfrEHD6PIctwKjwGZ7sA+mcOmx6rh9Jh83xwphkg==
   dependencies:
-    "@wormhole-foundation/sdk-aptos" "3.4.1"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-aptos" "3.4.3"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
 
-"@wormhole-foundation/sdk-aptos@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos/-/sdk-aptos-3.4.1.tgz#766af8fb4f9fecd498153d4b584879c10248a903"
-  integrity sha512-sVag9LfJoyvDFj20Oy3G9FkPX4j/bVjAg1U1Xun9IdsD+Y7qC1zedc64KLcJ2wrot4cTUTMmMmNH2KzmCqRXrw==
+"@wormhole-foundation/sdk-aptos@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-aptos/-/sdk-aptos-3.4.3.tgz#c09229689cb06f01129d04e03843cfbb101a9a1b"
+  integrity sha512-nRypYpStSwVbfH4K5hm+35lUN82A3xjokYkuTBmxJbFKiM8hDR2vnYitOOYj6i01EIOZZ+tDcl9UpgUNcOkSDw==
   dependencies:
     "@aptos-labs/ts-sdk" "^2.0.0"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
 
-"@wormhole-foundation/sdk-base@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-base/-/sdk-base-3.4.1.tgz#01fbbaf3c143a0bc465bc72e11b8a97f7bb3c5ec"
-  integrity sha512-S3h03sK9vm7Fqb49b3v+0vyYg4oyAf4pH5NvGzqCjXe1YQRXJ6Mfc5Hgx1k0GH7B11yKvsAMRaEJ2MzDFlP/9A==
+"@wormhole-foundation/sdk-base@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-base/-/sdk-base-3.4.3.tgz#72dbc41c79ee6d6d60f7c19808f41528fe30970c"
+  integrity sha512-3ZExDfBDgLonZhIZRNU8EKY6WN4JgCM53fFzaLaP/erKR6WwWfuN47TpVXaI+lzjMa34zb8QW2uP2oFNYE1zlQ==
   dependencies:
     "@scure/base" "^1.1.3"
     binary-layout "^1.0.3"
 
-"@wormhole-foundation/sdk-connect@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-connect/-/sdk-connect-3.4.1.tgz#3612b1caca1d0ececa8b9cc74446d5930d7c52f4"
-  integrity sha512-poWwAqTagtJ+G+tW5qB7HdCzjONgPRSs03+wCFgz2iktXUFzRSBe/6FD19kZOFct1DeGX20x+xwQzjL0xVBN5g==
+"@wormhole-foundation/sdk-connect@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-connect/-/sdk-connect-3.4.3.tgz#666d83860ff523241c662d0e499c8ce552c57c77"
+  integrity sha512-IFOc5IeoUtxHIPrck0INVOKXAp75WTnANkjgEnghcZsH8H62+uY3skYd/2zcF7nUVXIsEgTenyNi66D9Crl+xg==
   dependencies:
-    "@wormhole-foundation/sdk-base" "3.4.1"
-    "@wormhole-foundation/sdk-definitions" "3.4.1"
+    "@wormhole-foundation/sdk-base" "3.4.3"
+    "@wormhole-foundation/sdk-definitions" "3.4.3"
     axios "^1.4.0"
 
-"@wormhole-foundation/sdk-cosmwasm-core@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-core/-/sdk-cosmwasm-core-3.4.1.tgz#a92237424645edd8f6ec4fbbca43f6bd4031e976"
-  integrity sha512-rregDtvqn6NJHedq1kl2e9L7e4DSSGat/2L1j1vJzzhYT7X1doCcPHdhCVbb+9qmw5TiK3qGUpBZiZ1WElWoTw==
+"@wormhole-foundation/sdk-cosmwasm-core@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-core/-/sdk-cosmwasm-core-3.4.3.tgz#faee231f3047a0652646f04376ab10d1674e87a2"
+  integrity sha512-R/KzqQwpEfvAwU40l4T0FRwtOn3jwXcWx3l3bvM+ekrnE6+bAl5wOaQxfbFEgApWJtzX6F56KRn6wbk8VB6sQA==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.32.0"
     "@cosmjs/stargate" "^0.32.0"
     "@injectivelabs/sdk-ts" "^1.14.13-beta.2"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-cosmwasm" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-cosmwasm" "3.4.3"
 
-"@wormhole-foundation/sdk-cosmwasm-ibc@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-ibc/-/sdk-cosmwasm-ibc-3.4.1.tgz#7a9d2a7588ada9b08532bfeaa23279b07c7c0136"
-  integrity sha512-eU+nxLwn9hvePkuAdkYYBmoXdWMhJ2/e9KjgPn0S+duAiFSlwrr1rndy16KGWRQcWyvtWx6cObNeZFguddLz2A==
+"@wormhole-foundation/sdk-cosmwasm-ibc@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-ibc/-/sdk-cosmwasm-ibc-3.4.3.tgz#6abb1fd56abf19b6594e743f478a99b32488b881"
+  integrity sha512-lGr/oEcr8ZaTxu0bSQXMjPJaOzZZ/5zrqQH3zCKb4cpwzrvfRrPCTN9+neWT7JQ9w9ekatcE583o57jBR+bnvQ==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.32.0"
     "@cosmjs/stargate" "^0.32.0"
     "@injectivelabs/sdk-ts" "^1.14.13-beta.2"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-cosmwasm" "3.4.1"
-    "@wormhole-foundation/sdk-cosmwasm-core" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-cosmwasm" "3.4.3"
+    "@wormhole-foundation/sdk-cosmwasm-core" "3.4.3"
     cosmjs-types "^0.9.0"
 
-"@wormhole-foundation/sdk-cosmwasm-tokenbridge@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-tokenbridge/-/sdk-cosmwasm-tokenbridge-3.4.1.tgz#b51364ddf8c347216180149608c104620ec70ba2"
-  integrity sha512-bP/ss5AxpklnRGO75g7WTIOo2ahWlBXh6z8D94SRBrsVtXxW4JqB8voYOimP4aKMlGe1LgjtHOD2edD4kXCnaA==
+"@wormhole-foundation/sdk-cosmwasm-tokenbridge@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm-tokenbridge/-/sdk-cosmwasm-tokenbridge-3.4.3.tgz#2c5fc094177727e02c5a462ecb9b124ce80651e9"
+  integrity sha512-MYGYUvGd88T+FKrYw54JAA5jKVypeezuJtmGAqamyIz01fWGcmE02aWPwqPTZ9kKnAgptqWu2cUWbUUfCYfHDg==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.32.0"
     "@injectivelabs/sdk-ts" "^1.14.13-beta.2"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-cosmwasm" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-cosmwasm" "3.4.3"
 
-"@wormhole-foundation/sdk-cosmwasm@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm/-/sdk-cosmwasm-3.4.1.tgz#3c45acc40014358cae1c4b33583be71a58c57bf5"
-  integrity sha512-Qj/VoQU4MvAU66AE1wKPQtdicahFUCW4l6NySOju7+MlqOsCh7LXovSlkUOOaRE+2fEZ9af/WxSqkjtpYh+czw==
+"@wormhole-foundation/sdk-cosmwasm@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-cosmwasm/-/sdk-cosmwasm-3.4.3.tgz#66e73b023c779dff9da2feb8c19e359a09cb3788"
+  integrity sha512-cNq6Ou0uUD9rFm8u/ozB/KobjfNkw2mdibMJuZ6egQnIX5qt5JlO15DSGfkfGXgZShbO3WL4uZX8dFvxPn0wEw==
   dependencies:
     "@cosmjs/cosmwasm-stargate" "^0.32.0"
     "@cosmjs/proto-signing" "^0.32.0"
     "@cosmjs/stargate" "^0.32.0"
     "@injectivelabs/sdk-ts" "^1.14.13-beta.2"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
     cosmjs-types "^0.9.0"
 
 "@wormhole-foundation/sdk-definitions-ntt@2.0.0":
@@ -1138,32 +1138,32 @@
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-2.0.0.tgz#8e6f2b90c341a83d5a319ffca722a8f641ece8c8"
   integrity sha512-PDmk2tUl9BZi2inxLR90IKJwjryd2lFjkJYKu1xTHBUVXbd8TwsIu7X0qx2N0GVlbxUh4e7ht7bSxwk+z9GslA==
 
-"@wormhole-foundation/sdk-definitions@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-3.4.1.tgz#58dac7a5b3435f8c7f2b00c0fda4500e3afd92fd"
-  integrity sha512-lF0YYOkXgj4fJVa2QFlok0E/YQpJUg0tyCGEVG7sv5+7s5Fuudp7qzFnV8QQ2aqv1EqmMx4GHpUC7WKhkerinA==
+"@wormhole-foundation/sdk-definitions@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-3.4.3.tgz#c8e48c4de4460c56d12752bbd9a5d522f50f66f7"
+  integrity sha512-JtYiPKL2m7FRA+C5D+wrggV6ZE0/ABzDLFiLVx69Yn8XMvqSSJi3FAMrjAuIRfQsL0in8y2dxFHMTHr39rvasQ==
   dependencies:
     "@noble/curves" "^1.4.0"
     "@noble/hashes" "^1.3.1"
-    "@wormhole-foundation/sdk-base" "3.4.1"
+    "@wormhole-foundation/sdk-base" "3.4.3"
 
-"@wormhole-foundation/sdk-evm-cctp@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-cctp/-/sdk-evm-cctp-3.4.1.tgz#a53525c416090be6c7619f25a8efef2c50624e93"
-  integrity sha512-iGfgOKLOIYmFLXOqxRkooOjF06l5FC795SWywMxb/Xku/f268aiIEsd/4/2FFSQhl+4QS2Ik2fsKqyiE6pgiDQ==
+"@wormhole-foundation/sdk-evm-cctp@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-cctp/-/sdk-evm-cctp-3.4.3.tgz#d41bc184790289eda4481e7c7ecd19a7d0efb939"
+  integrity sha512-+IwFOl7yDgFxpXq3BZmIgI18jNjbzZkSPEuWk+BUfG+O8V7dQmXC/UcJXWYjGRU4CatMfgjvxCg8AM4nZ63OQQ==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-evm" "3.4.1"
-    "@wormhole-foundation/sdk-evm-core" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-evm" "3.4.3"
+    "@wormhole-foundation/sdk-evm-core" "3.4.3"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-core@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-core/-/sdk-evm-core-3.4.1.tgz#07a168f016a4a3237e9d48a149e049d8fd9cf989"
-  integrity sha512-1AFrHTCkqQaUKyoIAqxJCUJyelmtp0eoVilc+i6lz8E2VjrVLLyAn9E3TCca4cT8HBvXOoWnzCDLnqMgAZwX0Q==
+"@wormhole-foundation/sdk-evm-core@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-core/-/sdk-evm-core-3.4.3.tgz#afbfe28b66195a32c1e15537f0201f642bc31dc6"
+  integrity sha512-RSuxeTfFnVmEVAQCMgTdNolrSoDHmnP4pmWfI+Kl8WccJcHA4g21c2jPKdH7VT9hgTXFE8lc/JMPU5liGhF8Sw==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-evm" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-evm" "3.4.3"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-evm-ntt@2.0.0":
@@ -1174,43 +1174,43 @@
     "@wormhole-foundation/sdk-definitions-ntt" "2.0.0"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-portico@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-portico/-/sdk-evm-portico-3.4.1.tgz#e3748b8df6c02467d0bd5cf153d32cd327d46ab4"
-  integrity sha512-BUBmAabm7IU79MqKxyvq9tgMt/wP4SB6RMmtenkw5Vec7hCxPpFelYItafFA0eqgTJXKysUuPy4EPHb94ez/Gg==
+"@wormhole-foundation/sdk-evm-portico@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-portico/-/sdk-evm-portico-3.4.3.tgz#5d3fcbc95714ae6149b789608b4abac2faf6ba74"
+  integrity sha512-vcNqMDNNjPV0E7iDz9UDT3fMKySvVoRENO/Diq2FoZq+3hNAbpC/H7iwMJPijhpZotQ0FEUs776eToAOdDe61g==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-evm" "3.4.1"
-    "@wormhole-foundation/sdk-evm-core" "3.4.1"
-    "@wormhole-foundation/sdk-evm-tokenbridge" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-evm" "3.4.3"
+    "@wormhole-foundation/sdk-evm-core" "3.4.3"
+    "@wormhole-foundation/sdk-evm-tokenbridge" "3.4.3"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-tbtc@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-tbtc/-/sdk-evm-tbtc-3.4.1.tgz#75efd581db9263a98ff6dffa31b3b5c63b802092"
-  integrity sha512-8cHNwnjFY2cKOB5crAwRVHccWOzxbKNfTUtTHJczx+opCTG9lKsXvkqh7JSrNee6SCJArMSA3Glz1ev+BHVq7g==
+"@wormhole-foundation/sdk-evm-tbtc@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-tbtc/-/sdk-evm-tbtc-3.4.3.tgz#3e587746455b5e8ab16b68a38990a5ce9a8e9372"
+  integrity sha512-Q3PLORl1uhJMz2ZkU/v4dcrS4VZ6Mfb58BNPjp/Tx8iFanVPu+QvLrFWF+G1KQMmcg8HqPTYlAgzKZ/fKQJBxw==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-evm" "3.4.1"
-    "@wormhole-foundation/sdk-evm-core" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-evm" "3.4.3"
+    "@wormhole-foundation/sdk-evm-core" "3.4.3"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-tokenbridge@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-tokenbridge/-/sdk-evm-tokenbridge-3.4.1.tgz#45a907280ec005d3dd5507f4723947834466c17b"
-  integrity sha512-5XIuA6Ix6FfJMCbz50F9lTsmYcusNPgzyHNMisfcem5exmu5dmHYEdXP61/DYWrAvrqm92BbZmcEkKhfLRdRjA==
+"@wormhole-foundation/sdk-evm-tokenbridge@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-tokenbridge/-/sdk-evm-tokenbridge-3.4.3.tgz#83ca3e327d2dbb5f6c72d13f769db7b9d85a57cf"
+  integrity sha512-mUlzN7PJW6SFU0HOA+Ogs00TqLQ9p7I11vRDtWR6bGKIjluUD4+9CD6RoVHYzlhSPNh5VRjGdXr6WQmqaUjC7A==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-evm" "3.4.1"
-    "@wormhole-foundation/sdk-evm-core" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-evm" "3.4.3"
+    "@wormhole-foundation/sdk-evm-core" "3.4.3"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm/-/sdk-evm-3.4.1.tgz#c2a09999cb81973ea8ceaae2f0e395393c6d8125"
-  integrity sha512-8WZhlDgra9cWexVWZpS2MJxwFx8he3D8WodDhqskdXkMC1nJFowOliZyXXpYcQSQKn58n1dOeFiN792dPAlxGQ==
+"@wormhole-foundation/sdk-evm@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm/-/sdk-evm-3.4.3.tgz#920611bb9f6d68cad80edd9428e8e3c2414b9401"
+  integrity sha512-8q9r2kq2GGjipKYNXpIiY+lQ0ESP5N2+eNIjC/a86yHaLKgT+uWPUNSc26OtIVIEhv89FbuzuG3ubby8Vo/axw==
   dependencies:
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-route-ntt@2.0.0":
@@ -1222,27 +1222,27 @@
     "@wormhole-foundation/sdk-evm-ntt" "2.0.0"
     "@wormhole-foundation/sdk-solana-ntt" "2.0.0"
 
-"@wormhole-foundation/sdk-solana-cctp@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-cctp/-/sdk-solana-cctp-3.4.1.tgz#9668dd27c8f3be87064662037040569b68fb6562"
-  integrity sha512-DpqrknprJSqxMeMHeZohfOFV+D/TIoWd6sOFW1O6jxSpgmfm3LhpM2lRyylhQE+PFzmaZOp7jwqoaLrfE8dcFw==
+"@wormhole-foundation/sdk-solana-cctp@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-cctp/-/sdk-solana-cctp-3.4.3.tgz#ff0ec6df2041268a772419c05a2ccfa0188836f4"
+  integrity sha512-cqXqkv7vvH/EvKGPA+dxUjOiYv5J9u5o/10RKDLKPLNnoDpSxwR6cIaR8xzfKIlsUFKghVk6xQZj+I1PpV3HZQ==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@solana/spl-token" "0.3.9"
     "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-solana" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-solana" "3.4.3"
 
-"@wormhole-foundation/sdk-solana-core@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-core/-/sdk-solana-core-3.4.1.tgz#dd7d48a5044afe81341ac94bc405b88132deb58e"
-  integrity sha512-+zb/2EzfNFa0FxqGT8rmj28LtwyCFBCw2UsBwSa6zqvduPKAPYmUohVJMVyG29/OvzBMPbBVACwO//dhuAZsfg==
+"@wormhole-foundation/sdk-solana-core@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-core/-/sdk-solana-core-3.4.3.tgz#8feac96629ba1674175e6d072d3354a56931602d"
+  integrity sha512-godFR6rNFlJe9WwxRvKQrtCCV/L/HYMbK6ngMWK+qVZAOdVW4/INuMg9RZMh0Mpy0oxrfy2LgRX3pmyLnkJSCA==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@coral-xyz/borsh" "0.29.0"
     "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-solana" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-solana" "3.4.3"
 
 "@wormhole-foundation/sdk-solana-ntt@2.0.0":
   version "2.0.0"
@@ -1256,60 +1256,60 @@
     "@wormhole-foundation/sdk-definitions-ntt" "2.0.0"
     bn.js "5.2.1"
 
-"@wormhole-foundation/sdk-solana-tbtc@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-tbtc/-/sdk-solana-tbtc-3.4.1.tgz#1940a3cc511282a1d5956877c8b84ca956dc2d01"
-  integrity sha512-Qy5ve0J9jiF8UqoAXGcD5so/VHAU9j4gbfv8vW+TVhOsMji8P7naf7dG/dmuvDYxWrilKJs1QLVjNgmfBLEMfg==
+"@wormhole-foundation/sdk-solana-tbtc@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-tbtc/-/sdk-solana-tbtc-3.4.3.tgz#7f7904e5d8b6efdb5173292ed5499a8139d19857"
+  integrity sha512-m27XhqxE3rtCzdfheclutqH/D5wxd6YusLFZV4yZqX7U5sUeWxQjfEIdIGpuLf0f9sWhrs7RZDK4lCvOrUhBXA==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@solana/spl-token" "0.3.9"
     "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-solana" "3.4.1"
-    "@wormhole-foundation/sdk-solana-core" "3.4.1"
-    "@wormhole-foundation/sdk-solana-tokenbridge" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-solana" "3.4.3"
+    "@wormhole-foundation/sdk-solana-core" "3.4.3"
+    "@wormhole-foundation/sdk-solana-tokenbridge" "3.4.3"
 
-"@wormhole-foundation/sdk-solana-tokenbridge@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-tokenbridge/-/sdk-solana-tokenbridge-3.4.1.tgz#d39127a2b575a317c4973923c35b34ceca17fd0c"
-  integrity sha512-9m5LFZzJ9rsA+bhPrFdA2vwaguKg6CsfLl7fK1A69knj8ogRxIvt5kxQyAxBDiACS/ZIKvzB+JXk7H6y564qTA==
+"@wormhole-foundation/sdk-solana-tokenbridge@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-tokenbridge/-/sdk-solana-tokenbridge-3.4.3.tgz#49d8cb8dec53770e2a1cc542a93374c74cac8d81"
+  integrity sha512-canhTswghrINw7m9a8c59icLdcZ5yNwg6mok6LQwJLSUJvKUmehpTXWFRZ7acsxZfe199zm/sayEYVGIOaTAkw==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@solana/spl-token" "0.3.9"
     "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-solana" "3.4.1"
-    "@wormhole-foundation/sdk-solana-core" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-solana" "3.4.3"
+    "@wormhole-foundation/sdk-solana-core" "3.4.3"
 
-"@wormhole-foundation/sdk-solana@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana/-/sdk-solana-3.4.1.tgz#509d8e14debf84973d1f51c44c7404af6884bf7e"
-  integrity sha512-hQEB53umApSz6ReVCoc+69HoW6rEQbBcDY4rC96s0lucLWtbbs/SdsQLHpphch9Jet/g1zthWWHHGcUxTkSnsQ==
+"@wormhole-foundation/sdk-solana@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana/-/sdk-solana-3.4.3.tgz#c009b2534348094d758dbfb4d5e31cd292ab8e6c"
+  integrity sha512-6hxpmwqlrhxyxZn6NweksGs6xG+6GvQQfkMath20QIDDPpqTkhQmvf+pslV6oEo7rjSlaoUJjCc3dlH4sU3PYg==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@coral-xyz/borsh" "0.29.0"
     "@solana/spl-token" "0.3.9"
     "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
     rpc-websockets "^7.10.0"
 
-"@wormhole-foundation/sdk-sui-cctp@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-cctp/-/sdk-sui-cctp-3.4.1.tgz#cd5085784edf922873c31a89b7077cb086704fe7"
-  integrity sha512-YxvxpPvij3D84Dhrsqbhi52ELPb7Gve0lbfK4Sf/1fds4vr6jtLsycIkL7iy8fPAY/raRQV2pzqLIYrKVhh8cg==
+"@wormhole-foundation/sdk-sui-cctp@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-cctp/-/sdk-sui-cctp-3.4.3.tgz#0c32c53b2317ac7be89216932cbd87d8a451f38e"
+  integrity sha512-1mwXgdytkAGraJllusU7hYmSkt8qxb/eaOi5gdiVA329uUfk6+SOuaHzntmSdesq+ZWtR9EogBvQqnn1+2iy5w==
   dependencies:
-    "@mysten/sui" "^1.21.2"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-sui" "3.4.1"
+    "@mysten/sui" "^1.37.2"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-sui" "3.4.3"
 
-"@wormhole-foundation/sdk-sui-core@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-core/-/sdk-sui-core-3.4.1.tgz#7aaed792f6d0537a81992fdbf9349d4e7df0c84d"
-  integrity sha512-CFwNWeODE75N5QoyE+jkrNZXs8TfbL8k17H6e/bbzgse509bgWfRonRFjo9u5CQ055oc/Eu3zI2B9xE/WuNqsg==
+"@wormhole-foundation/sdk-sui-core@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-core/-/sdk-sui-core-3.4.3.tgz#231bd59eb9665a13de162b985a3d764fcd0e807e"
+  integrity sha512-WvT1crdDVjKRL0ev9CUynhxlXmMz/+mscUfvnpQf+W/UgI1r7g1mHA1HWK/otJ+aEorR6yadRcg9/gxSg1RUXA==
   dependencies:
-    "@mysten/sui" "^1.21.2"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-sui" "3.4.1"
+    "@mysten/sui" "^1.37.2"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-sui" "3.4.3"
 
 "@wormhole-foundation/sdk-sui-ntt@2.0.0":
   version "2.0.0"
@@ -1319,58 +1319,58 @@
     "@mysten/sui" "1.37.2"
     "@wormhole-foundation/sdk-definitions-ntt" "2.0.0"
 
-"@wormhole-foundation/sdk-sui-tokenbridge@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-tokenbridge/-/sdk-sui-tokenbridge-3.4.1.tgz#5b4c88c83e141f8655a5af2addbfe0bb06ab78c7"
-  integrity sha512-NZYxuS84wPPIPab44mX+LyGWpAH1b7NJXr5Ipdgvk/qBwyw2NrdqhfedpoqTdY7vxdrW4trdRVCyOeSHtxPPpA==
+"@wormhole-foundation/sdk-sui-tokenbridge@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-tokenbridge/-/sdk-sui-tokenbridge-3.4.3.tgz#e3f875a8dc36bf8c809257e7c2f88464cfc47ede"
+  integrity sha512-SVDJry7FYdmDSRLwwRUy6RkJ2zkMkUbfX6ujsGJ0d26SEV1hYKpGQ/BIMCflDLPZDXYIwkQ94M67M0BwXsLp9w==
   dependencies:
-    "@mysten/sui" "^1.21.2"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-sui" "3.4.1"
-    "@wormhole-foundation/sdk-sui-core" "3.4.1"
+    "@mysten/sui" "^1.37.2"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-sui" "3.4.3"
+    "@wormhole-foundation/sdk-sui-core" "3.4.3"
 
-"@wormhole-foundation/sdk-sui@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui/-/sdk-sui-3.4.1.tgz#788fce66fe08330341477dbecfe039e8d78822da"
-  integrity sha512-1s4+urcnxG250TTwOJIifXez0k453jY4iT3gwh5C0ADLcjeLR/LTDqHhtVwRv9XnHxSEDYFb53bRDaWHhaI8ZA==
+"@wormhole-foundation/sdk-sui@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui/-/sdk-sui-3.4.3.tgz#409e4a341c67efd2f719377ead8e1f0835fda64b"
+  integrity sha512-KUwQFhSkq2/uGlYKSAbUzOCY2wC3oHY5nNcbjO+IPm1VN6fa9c/k9XSbsDhAQQz1tmXd7/ebEeMuh6qV6nnj0Q==
   dependencies:
-    "@mysten/sui" "^1.21.2"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
+    "@mysten/sui" "^1.37.2"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
 
-"@wormhole-foundation/sdk@3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk/-/sdk-3.4.1.tgz#18aef70c18dc2624bd275b3343f106e8bfd3e0ae"
-  integrity sha512-Jhod2FjFK9butP/eh6dC+V95SLBlMYL74r5EO5gx7MvjyJViqPGilA7rTR8DUdDh5WX9FKxCkInYdwz7t+JUdQ==
+"@wormhole-foundation/sdk@3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk/-/sdk-3.4.3.tgz#6c00a66000decde3157b2b9f5d96e259f42aa85d"
+  integrity sha512-ztSOFVuTW7LPTPaOSf86WupV5JvG7XMgJ/somU/rQz6aP9JPrYqe8Ci6LXe35SdawlN1j5XVEbe9nof+Kc6Glw==
   dependencies:
-    "@wormhole-foundation/sdk-algorand" "3.4.1"
-    "@wormhole-foundation/sdk-algorand-core" "3.4.1"
-    "@wormhole-foundation/sdk-algorand-tokenbridge" "3.4.1"
-    "@wormhole-foundation/sdk-aptos" "3.4.1"
-    "@wormhole-foundation/sdk-aptos-cctp" "3.4.1"
-    "@wormhole-foundation/sdk-aptos-core" "3.4.1"
-    "@wormhole-foundation/sdk-aptos-tokenbridge" "3.4.1"
-    "@wormhole-foundation/sdk-base" "3.4.1"
-    "@wormhole-foundation/sdk-connect" "3.4.1"
-    "@wormhole-foundation/sdk-cosmwasm" "3.4.1"
-    "@wormhole-foundation/sdk-cosmwasm-core" "3.4.1"
-    "@wormhole-foundation/sdk-cosmwasm-ibc" "3.4.1"
-    "@wormhole-foundation/sdk-cosmwasm-tokenbridge" "3.4.1"
-    "@wormhole-foundation/sdk-definitions" "3.4.1"
-    "@wormhole-foundation/sdk-evm" "3.4.1"
-    "@wormhole-foundation/sdk-evm-cctp" "3.4.1"
-    "@wormhole-foundation/sdk-evm-core" "3.4.1"
-    "@wormhole-foundation/sdk-evm-portico" "3.4.1"
-    "@wormhole-foundation/sdk-evm-tbtc" "3.4.1"
-    "@wormhole-foundation/sdk-evm-tokenbridge" "3.4.1"
-    "@wormhole-foundation/sdk-solana" "3.4.1"
-    "@wormhole-foundation/sdk-solana-cctp" "3.4.1"
-    "@wormhole-foundation/sdk-solana-core" "3.4.1"
-    "@wormhole-foundation/sdk-solana-tbtc" "3.4.1"
-    "@wormhole-foundation/sdk-solana-tokenbridge" "3.4.1"
-    "@wormhole-foundation/sdk-sui" "3.4.1"
-    "@wormhole-foundation/sdk-sui-cctp" "3.4.1"
-    "@wormhole-foundation/sdk-sui-core" "3.4.1"
-    "@wormhole-foundation/sdk-sui-tokenbridge" "3.4.1"
+    "@wormhole-foundation/sdk-algorand" "3.4.3"
+    "@wormhole-foundation/sdk-algorand-core" "3.4.3"
+    "@wormhole-foundation/sdk-algorand-tokenbridge" "3.4.3"
+    "@wormhole-foundation/sdk-aptos" "3.4.3"
+    "@wormhole-foundation/sdk-aptos-cctp" "3.4.3"
+    "@wormhole-foundation/sdk-aptos-core" "3.4.3"
+    "@wormhole-foundation/sdk-aptos-tokenbridge" "3.4.3"
+    "@wormhole-foundation/sdk-base" "3.4.3"
+    "@wormhole-foundation/sdk-connect" "3.4.3"
+    "@wormhole-foundation/sdk-cosmwasm" "3.4.3"
+    "@wormhole-foundation/sdk-cosmwasm-core" "3.4.3"
+    "@wormhole-foundation/sdk-cosmwasm-ibc" "3.4.3"
+    "@wormhole-foundation/sdk-cosmwasm-tokenbridge" "3.4.3"
+    "@wormhole-foundation/sdk-definitions" "3.4.3"
+    "@wormhole-foundation/sdk-evm" "3.4.3"
+    "@wormhole-foundation/sdk-evm-cctp" "3.4.3"
+    "@wormhole-foundation/sdk-evm-core" "3.4.3"
+    "@wormhole-foundation/sdk-evm-portico" "3.4.3"
+    "@wormhole-foundation/sdk-evm-tbtc" "3.4.3"
+    "@wormhole-foundation/sdk-evm-tokenbridge" "3.4.3"
+    "@wormhole-foundation/sdk-solana" "3.4.3"
+    "@wormhole-foundation/sdk-solana-cctp" "3.4.3"
+    "@wormhole-foundation/sdk-solana-core" "3.4.3"
+    "@wormhole-foundation/sdk-solana-tbtc" "3.4.3"
+    "@wormhole-foundation/sdk-solana-tokenbridge" "3.4.3"
+    "@wormhole-foundation/sdk-sui" "3.4.3"
+    "@wormhole-foundation/sdk-sui-cctp" "3.4.3"
+    "@wormhole-foundation/sdk-sui-core" "3.4.3"
+    "@wormhole-foundation/sdk-sui-tokenbridge" "3.4.3"
 
 "@wry/caches@^1.0.0":
   version "1.0.1"
