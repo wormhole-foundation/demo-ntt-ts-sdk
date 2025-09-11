@@ -1138,6 +1138,11 @@
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-2.0.0.tgz#8e6f2b90c341a83d5a319ffca722a8f641ece8c8"
   integrity sha512-PDmk2tUl9BZi2inxLR90IKJwjryd2lFjkJYKu1xTHBUVXbd8TwsIu7X0qx2N0GVlbxUh4e7ht7bSxwk+z9GslA==
 
+"@wormhole-foundation/sdk-definitions-ntt@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-2.0.4.tgz#b8ef03e8d9bb4d9a3df927a380f027693674eb4a"
+  integrity sha512-FURyrYWfAWudh3+3m61MXJtbEU6FBrfdcVTk5+KfcM1lHAWSGhBWzbgEvNodb8BW+6AyRXHelU66v4buEA1dyw==
+
 "@wormhole-foundation/sdk-definitions@3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-3.4.1.tgz#58dac7a5b3435f8c7f2b00c0fda4500e3afd92fd"
