@@ -1138,6 +1138,11 @@
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-2.0.0.tgz#8e6f2b90c341a83d5a319ffca722a8f641ece8c8"
   integrity sha512-PDmk2tUl9BZi2inxLR90IKJwjryd2lFjkJYKu1xTHBUVXbd8TwsIu7X0qx2N0GVlbxUh4e7ht7bSxwk+z9GslA==
 
+"@wormhole-foundation/sdk-definitions-ntt@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-2.0.5.tgz#cf96fac811f2711f03ee0ebe3efeb13e2b16ec78"
+  integrity sha512-2r6ZORi+WvGxVh9N8MfZ2TJj/cpZjcUTM2IGLHOAbz4x657JpxbNDAkSNTAQ8bL0lOZelrsArLou9axnGHx8iA==
+
 "@wormhole-foundation/sdk-definitions@3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-3.4.1.tgz#58dac7a5b3435f8c7f2b00c0fda4500e3afd92fd"
@@ -1172,6 +1177,14 @@
   integrity sha512-oNvOkpOMISpcR5obdQrWBNs617HK8IDVFUzABBzW25twe10ub41LBZmHn537SB/F1DOFwPw/FjLWDbX5Q/bYAQ==
   dependencies:
     "@wormhole-foundation/sdk-definitions-ntt" "2.0.0"
+    ethers "^6.5.1"
+
+"@wormhole-foundation/sdk-evm-ntt@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-2.0.5.tgz#f4115921ffcc68c82ebff3cd0e02b6a625904601"
+  integrity sha512-gZbMEgnh3xYWhtOhRrP/hQliNJiSGYEJXmxndWF8MFz+jH5Q56ZSLlF8+8Sds5TJLAbOWeK/+9QuWvf+qS3E2Q==
+  dependencies:
+    "@wormhole-foundation/sdk-definitions-ntt" "2.0.5"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-evm-portico@3.4.1":
