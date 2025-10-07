@@ -1257,18 +1257,6 @@
     "@wormhole-foundation/sdk-connect" "3.4.1"
     "@wormhole-foundation/sdk-solana" "3.4.1"
 
-"@wormhole-foundation/sdk-solana-ntt@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-2.0.0.tgz#747806cc90ae8cf1b80651d055069d536187d328"
-  integrity sha512-icFcvan6+//lOzN/u5inpxDDIdCX2rGlt/0vrkKFsJVTo4uJgpZcHOlKeTLk6mL9kSjOm8CVnDDn8752FivgoA==
-  dependencies:
-    "@coral-xyz/anchor" "0.29.0"
-    "@coral-xyz/borsh" "0.29.0"
-    "@solana/spl-token" "0.4.0"
-    "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-definitions-ntt" "2.0.0"
-    bn.js "5.2.1"
-
 "@wormhole-foundation/sdk-solana-ntt@3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-3.0.2.tgz#bc1632bac512e57670f6151ee35a560d6120dddf"
