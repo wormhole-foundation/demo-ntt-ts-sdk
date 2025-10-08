@@ -8,7 +8,7 @@
     "@wormhole-foundation/sdk-evm-ntt": "2.0.0",
     "@wormhole-foundation/sdk-route-ntt": "3.0.2",
     "@wormhole-foundation/sdk-solana-ntt": "2.0.0",
-    "@wormhole-foundation/sdk-sui-ntt": "2.0.0",
+    "@wormhole-foundation/sdk-sui-ntt": "3.0.2",
     "dotenv": "^16.4.5",
     "rpc-websockets": "7.11.0"
   },
