@@ -1143,6 +1143,11 @@
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-3.0.2.tgz#b72fea5e29e562b23f1d126036691cec5c53c9d2"
   integrity sha512-Hs3IzlRxCtcNLMOaQPpvPLKDt7bYSCz72MaXcB54mccWgUi2RHnuldiT7f8SWDcWnv91bm8JqyPuCBYKzSH1Yg==
 
+"@wormhole-foundation/sdk-definitions-ntt@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-3.0.4.tgz#137e7130d8c531f21df8bd1f42249a5c2c4f8653"
+  integrity sha512-VnPjMn55QxD+JADeckvdcQ8o6DAqPiRIuvEwOrXyJkPu0RtP8Z7Iaz+nGz/9Oh4Q8IJ8mAeXeL+GI4BgQfrjSg==
+
 "@wormhole-foundation/sdk-definitions@3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-3.4.1.tgz#58dac7a5b3435f8c7f2b00c0fda4500e3afd92fd"
@@ -1257,18 +1262,6 @@
     "@wormhole-foundation/sdk-connect" "3.4.1"
     "@wormhole-foundation/sdk-solana" "3.4.1"
 
-"@wormhole-foundation/sdk-solana-ntt@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-2.0.0.tgz#747806cc90ae8cf1b80651d055069d536187d328"
-  integrity sha512-icFcvan6+//lOzN/u5inpxDDIdCX2rGlt/0vrkKFsJVTo4uJgpZcHOlKeTLk6mL9kSjOm8CVnDDn8752FivgoA==
-  dependencies:
-    "@coral-xyz/anchor" "0.29.0"
-    "@coral-xyz/borsh" "0.29.0"
-    "@solana/spl-token" "0.4.0"
-    "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-definitions-ntt" "2.0.0"
-    bn.js "5.2.1"
-
 "@wormhole-foundation/sdk-solana-ntt@3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-3.0.2.tgz#bc1632bac512e57670f6151ee35a560d6120dddf"
@@ -1279,6 +1272,18 @@
     "@solana/spl-token" "0.4.0"
     "@solana/web3.js" "^1.95.8"
     "@wormhole-foundation/sdk-definitions-ntt" "3.0.2"
+    bn.js "5.2.1"
+
+"@wormhole-foundation/sdk-solana-ntt@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-3.0.4.tgz#c1353502d01dfdd94647ff29da01adf42e32760d"
+  integrity sha512-3cxBaapBDriDOJGXA/gfOFbHtIwd+0reaXFqOBasWuX/7XVekCL4GR0q97iTocp/a43/gguSXkbUkKd/FfsycQ==
+  dependencies:
+    "@coral-xyz/anchor" "0.29.0"
+    "@coral-xyz/borsh" "0.29.0"
+    "@solana/spl-token" "0.4.0"
+    "@solana/web3.js" "^1.95.8"
+    "@wormhole-foundation/sdk-definitions-ntt" "3.0.4"
     bn.js "5.2.1"
 
 "@wormhole-foundation/sdk-solana-tbtc@3.4.1":
