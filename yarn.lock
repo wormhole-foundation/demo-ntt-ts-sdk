@@ -1143,6 +1143,11 @@
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-3.0.2.tgz#b72fea5e29e562b23f1d126036691cec5c53c9d2"
   integrity sha512-Hs3IzlRxCtcNLMOaQPpvPLKDt7bYSCz72MaXcB54mccWgUi2RHnuldiT7f8SWDcWnv91bm8JqyPuCBYKzSH1Yg==
 
+"@wormhole-foundation/sdk-definitions-ntt@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-3.0.4.tgz#137e7130d8c531f21df8bd1f42249a5c2c4f8653"
+  integrity sha512-VnPjMn55QxD+JADeckvdcQ8o6DAqPiRIuvEwOrXyJkPu0RtP8Z7Iaz+nGz/9Oh4Q8IJ8mAeXeL+GI4BgQfrjSg==
+
 "@wormhole-foundation/sdk-definitions@3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-3.4.1.tgz#58dac7a5b3435f8c7f2b00c0fda4500e3afd92fd"
@@ -1171,20 +1176,20 @@
     "@wormhole-foundation/sdk-evm" "3.4.1"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-ntt@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-2.0.0.tgz#52c8340b015ab9341de97c74eb0bca08111e4c35"
-  integrity sha512-oNvOkpOMISpcR5obdQrWBNs617HK8IDVFUzABBzW25twe10ub41LBZmHn537SB/F1DOFwPw/FjLWDbX5Q/bYAQ==
-  dependencies:
-    "@wormhole-foundation/sdk-definitions-ntt" "2.0.0"
-    ethers "^6.5.1"
-
 "@wormhole-foundation/sdk-evm-ntt@3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-3.0.2.tgz#84902c9424ee20c1a3d3498b31eeb7ab87c5f883"
   integrity sha512-TVEEZ4RgyVYmOgVtjXDUg7gpty9uSTUHeaJUHsV2imqWvoM3dmIBUOAE8riaiwCeXBIeGAT/wFI1cjnIKvcy7A==
   dependencies:
     "@wormhole-foundation/sdk-definitions-ntt" "3.0.2"
+    ethers "^6.5.1"
+
+"@wormhole-foundation/sdk-evm-ntt@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-3.0.4.tgz#a3131889fa70b64497f3f077771d1246c73563cc"
+  integrity sha512-JqmL+wMQ8QABUL7RrXUwnwhkACdHVXrOCvOY2Bb4sA9z/Km6IMvcgkH+qVgXenqjVnrl1QgXBK2HdZeNAXsFfg==
+  dependencies:
+    "@wormhole-foundation/sdk-definitions-ntt" "3.0.4"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-evm-portico@3.4.1":
