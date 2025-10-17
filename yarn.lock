@@ -1143,6 +1143,11 @@
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-3.0.2.tgz#b72fea5e29e562b23f1d126036691cec5c53c9d2"
   integrity sha512-Hs3IzlRxCtcNLMOaQPpvPLKDt7bYSCz72MaXcB54mccWgUi2RHnuldiT7f8SWDcWnv91bm8JqyPuCBYKzSH1Yg==
 
+"@wormhole-foundation/sdk-definitions-ntt@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-3.0.4.tgz#137e7130d8c531f21df8bd1f42249a5c2c4f8653"
+  integrity sha512-VnPjMn55QxD+JADeckvdcQ8o6DAqPiRIuvEwOrXyJkPu0RtP8Z7Iaz+nGz/9Oh4Q8IJ8mAeXeL+GI4BgQfrjSg==
+
 "@wormhole-foundation/sdk-definitions@3.4.1":
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions/-/sdk-definitions-3.4.1.tgz#58dac7a5b3435f8c7f2b00c0fda4500e3afd92fd"
@@ -1336,13 +1341,13 @@
     "@wormhole-foundation/sdk-connect" "3.4.1"
     "@wormhole-foundation/sdk-sui" "3.4.1"
 
-"@wormhole-foundation/sdk-sui-ntt@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-ntt/-/sdk-sui-ntt-2.0.0.tgz#4740f0e8d39fb05eec8552b7617d24141262443c"
-  integrity sha512-BdRhzm34taStV5JEo1pw3zh8l7cPi79SKzyzhPcyXYCQQlxAbIzIJB+Jm34sSO2kucOZljtO7+zNZ0N8KBXt3g==
+"@wormhole-foundation/sdk-sui-ntt@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-ntt/-/sdk-sui-ntt-3.0.4.tgz#33777a12659d69ef235bea684bc94aa7b393082f"
+  integrity sha512-b+Ln00TdNQIXnmeDWpVnhTe+kXXnGjBHvl6EIE6pEQuIQRPYE+2Fvvt5oo4prdLZUDiJF+9lGerK8Q9DG8tFoA==
   dependencies:
     "@mysten/sui" "1.37.2"
-    "@wormhole-foundation/sdk-definitions-ntt" "2.0.0"
+    "@wormhole-foundation/sdk-definitions-ntt" "3.0.4"
 
 "@wormhole-foundation/sdk-sui-tokenbridge@3.4.1":
   version "3.4.1"
