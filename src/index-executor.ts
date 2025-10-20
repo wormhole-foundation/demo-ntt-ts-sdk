@@ -24,20 +24,20 @@ import { routes } from "@wormhole-foundation/sdk";
   const network = "Testnet"; 
   const wh = new Wormhole(network, [solana.Platform, evm.Platform, sui.Platform], {
     // optional way to use private RPCs, especially recommended for mainnet 
-    //   "chains": {
-    //     "Sui": {
-    //       "rpc": "http://127.0.0.1:8546"
-    //     },
-    //     "Solana": {
-    //       "rpc": "http://127.0.0.1:8899"
-    //     }
-    //   }
+      "chains": {
+        "Sepolia": {
+          "rpc": "https://ethereum-sepolia-rpc.publicnode.com"
+        },
+        "BaseSepolia": {
+          "rpc": "https://base-sepolia-rpc.publicnode.com"
+        }
+      }
   });
-  const src = wh.getChain("Solana");
-  const dst = wh.getChain("Sui");
+  const src = wh.getChain("BaseSepolia");
+  const dst = wh.getChain("Sepolia");
   const srcSigner = await getSigner(src);
   // TODO: change destination address 
-  const dstAddress: ChainAddress = Wormhole.chainAddress("Sui","0xa43");
+  const dstAddress: ChainAddress = Wormhole.chainAddress("Sepolia","0x87E2");
   console.log("Source signer address:", srcSigner.address.address);
 
   const srcNtt = await src.getProtocol("Ntt", {
