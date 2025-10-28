@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "@wormhole-foundation/sdk": "^3.9.0",
-    "@wormhole-foundation/sdk-definitions-ntt": "^3.0.4",
+    "@wormhole-foundation/sdk-definitions-ntt": "^4.0.1",
     "@wormhole-foundation/sdk-evm-ntt": "^3.0.4",
     "@wormhole-foundation/sdk-route-ntt": "^3.0.4",
     "@wormhole-foundation/sdk-solana-ntt": "^3.0.4",
