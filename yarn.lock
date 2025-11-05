@@ -1087,10 +1087,15 @@
     "@wormhole-foundation/sdk-connect" "3.11.0"
     cosmjs-types "^0.9.0"
 
-"@wormhole-foundation/sdk-definitions-ntt@4.0.2", "@wormhole-foundation/sdk-definitions-ntt@^4.0.2":
+"@wormhole-foundation/sdk-definitions-ntt@4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.2.tgz#731b764479cc5e23dd27fc580f781874a30c608b"
   integrity sha512-Wq+fd6GRpy/USrJHhBss7oy2ZwBgOT58lCSAzhGqbNpBN05lW1oyaJmyTIpU0Q9gnKaZvPs4SUeHwWVUi1jtZg==
+
+"@wormhole-foundation/sdk-definitions-ntt@4.0.3", "@wormhole-foundation/sdk-definitions-ntt@^4.0.2":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.3.tgz#c18640a20d66ea807f3f16417890ad23b83d10f2"
+  integrity sha512-xg6Uk+wAYQ46u2VBGiVBal6cBgS3wj/zdQjEh+/V7XPGPW+oSMNHyTfM1Pbo2x3JtB/JAxYUy0yjIJV67BcuhA==
 
 "@wormhole-foundation/sdk-definitions@3.11.0":
   version "3.11.0"
@@ -1120,12 +1125,12 @@
     "@wormhole-foundation/sdk-evm" "3.11.0"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-ntt@4.0.2", "@wormhole-foundation/sdk-evm-ntt@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-4.0.2.tgz#36d9c99ce0ae9e78d63aa5a7147533a06417523a"
-  integrity sha512-aM0rUsFfq4KZNg8j+Y/9JAaDaxL5z2enWsBUMQYkCwPHNjltSm/PAxcVtqFgYG5yPI7ize2F3gMB/av29YNExA==
+"@wormhole-foundation/sdk-evm-ntt@4.0.3", "@wormhole-foundation/sdk-evm-ntt@^4.0.2":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-4.0.3.tgz#4052eb67eacea09634ad0517c7dc90baf82df75c"
+  integrity sha512-u/awdC5CBs4dSkTQD0fZ9v7bImRZ6Sy5aI9Zf1HpStAZ937HmbNTMtRIPUfYjLhzd5GWglLzkZo/zNhn9/K76A==
   dependencies:
-    "@wormhole-foundation/sdk-definitions-ntt" "4.0.2"
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.3"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-evm-portico@3.11.0":
@@ -1167,14 +1172,14 @@
     "@wormhole-foundation/sdk-connect" "3.11.0"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-route-ntt@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-route-ntt/-/sdk-route-ntt-4.0.2.tgz#00f259d0b859b68c31f624aa0b60e8c380c1d942"
-  integrity sha512-DM9SH4R7jll6Nxx7EGFAqi2OFoM/8jVyNQBT0+VAhlossbRLbRNjKkg8fLOrnc8aapFoErzjBYH7AQp1ViHAVg==
+"@wormhole-foundation/sdk-route-ntt@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-route-ntt/-/sdk-route-ntt-4.0.3.tgz#12d771eec30a8ae014566dcc08294249d30d3c1f"
+  integrity sha512-r6ZJsNE1zrGyWG40dDChzPNjdekrYzoEneEVeev4ihU4ZxzfILPFpHxsWahwd9HZ8kJ2EZQmc+rn5iKWnbnHKA==
   dependencies:
-    "@wormhole-foundation/sdk-definitions-ntt" "4.0.2"
-    "@wormhole-foundation/sdk-evm-ntt" "4.0.2"
-    "@wormhole-foundation/sdk-solana-ntt" "4.0.2"
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.3"
+    "@wormhole-foundation/sdk-evm-ntt" "4.0.3"
+    "@wormhole-foundation/sdk-solana-ntt" "4.0.3"
 
 "@wormhole-foundation/sdk-solana-cctp@3.11.0":
   version "3.11.0"
@@ -1198,16 +1203,16 @@
     "@wormhole-foundation/sdk-connect" "3.11.0"
     "@wormhole-foundation/sdk-solana" "3.11.0"
 
-"@wormhole-foundation/sdk-solana-ntt@4.0.2", "@wormhole-foundation/sdk-solana-ntt@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-4.0.2.tgz#4bb62a2d23612b612cebe921f0c9d87d070448ca"
-  integrity sha512-gidwvTFt4aHHJhBkst9DglsH+Xe8YJ8TALhK+5xW73g6+PGcb4GW9nnyJn9a5g3hi3sC4UD4hfAE+vnfC7srFQ==
+"@wormhole-foundation/sdk-solana-ntt@4.0.3", "@wormhole-foundation/sdk-solana-ntt@^4.0.2":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-4.0.3.tgz#87a7d342c2a39b61725c0d8b54d11380be1ea7f9"
+  integrity sha512-IWpiyn3wgPl3wsgp96IevwuQ2EaSolGILhE/xpbIgo64VZABM98juE/6JZ5W38LEhdjCGF23wbes2HqMtKfBZw==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@coral-xyz/borsh" "0.29.0"
     "@solana/spl-token" "0.4.0"
     "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-definitions-ntt" "4.0.2"
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.3"
     bn.js "5.2.1"
 
 "@wormhole-foundation/sdk-solana-tbtc@3.11.0":
@@ -1420,10 +1425,19 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@^1.13.1, axios@^1.4.0, axios@^1.6.0, axios@^1.8.1:
+axios@^1.4.0, axios@^1.6.0, axios@^1.8.1:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.13.1.tgz#45b62dc8fe04e0e92274e08b98e910ba3d7963a7"
   integrity sha512-hU4EGxxt+j7TQijx1oYdAjw4xuIp1wRQSsbMFwSthCWeBQur1eF+qJ5iQ5sN3Tw8YRzQNKb8jszgBdMDVqwJcw==
+  dependencies:
+    follow-redirects "^1.15.6"
+    form-data "^4.0.4"
+    proxy-from-env "^1.1.0"
+
+axios@^1.9.0:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.13.2.tgz#9ada120b7b5ab24509553ec3e40123521117f687"
+  integrity sha512-VPk9ebNqPcy5lRGuSlKx752IlDatOjT9paPlm8A7yOuW2Fbvp4X3JznJtT4f0GzGLLiWE9W8onz51SqLYwzGaA==
   dependencies:
     follow-redirects "^1.15.6"
     form-data "^4.0.4"
@@ -1667,10 +1681,10 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
-dotenv@^17.2.3:
-  version "17.2.3"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-17.2.3.tgz#ad995d6997f639b11065f419a22fabf567cdb9a2"
-  integrity sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==
+dotenv@^16.4.5:
+  version "16.6.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.6.1.tgz#773f0e69527a8315c7285d5ee73c4459d20a8020"
+  integrity sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==
 
 dunder-proto@^1.0.1:
   version "1.0.1"
@@ -2298,16 +2312,12 @@ resolve@^1.1.6:
     path-parse "^1.0.7"
     supports-preserve-symlinks-flag "^1.0.0"
 
-rpc-websockets@9.2.0, rpc-websockets@^9.0.2:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/rpc-websockets/-/rpc-websockets-9.2.0.tgz#c95633929ca92c311ed6e169f4c986623f001505"
-  integrity sha512-DS/XHdPxplQTtNRKiBCRWGBJfjOk56W7fyFUpiYi9fSTWTzoEMbUkn3J4gB0IMniIEVeAGR1/rzFQogzD5MxvQ==
+rpc-websockets@7.11.0:
+  version "7.11.0"
+  resolved "https://registry.yarnpkg.com/rpc-websockets/-/rpc-websockets-7.11.0.tgz#05451975963a7d1a4cf36d54e200bfc4402a56d7"
+  integrity sha512-IkLYjayPv6Io8C/TdCL5gwgzd1hFz2vmBZrjMw/SPEXo51ETOhnzgS4Qy5GWi2JQN7HKHa66J3+2mv0fgNh/7w==
   dependencies:
-    "@swc/helpers" "^0.5.11"
-    "@types/uuid" "^8.3.4"
-    "@types/ws" "^8.2.2"
-    buffer "^6.0.3"
-    eventemitter3 "^5.0.1"
+    eventemitter3 "^4.0.7"
     uuid "^8.3.2"
     ws "^8.5.0"
   optionalDependencies:
@@ -2320,6 +2330,22 @@ rpc-websockets@^7.10.0:
   integrity sha512-pL9r5N6AVHlMN/vT98+fcO+5+/UcPLf/4tq+WUaid/PPUGS/ttJ3y8e9IqmaWKtShNAysMSjkczuEA49NuV7UQ==
   dependencies:
     eventemitter3 "^4.0.7"
+    uuid "^8.3.2"
+    ws "^8.5.0"
+  optionalDependencies:
+    bufferutil "^4.0.1"
+    utf-8-validate "^5.0.2"
+
+rpc-websockets@^9.0.2:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/rpc-websockets/-/rpc-websockets-9.2.0.tgz#c95633929ca92c311ed6e169f4c986623f001505"
+  integrity sha512-DS/XHdPxplQTtNRKiBCRWGBJfjOk56W7fyFUpiYi9fSTWTzoEMbUkn3J4gB0IMniIEVeAGR1/rzFQogzD5MxvQ==
+  dependencies:
+    "@swc/helpers" "^0.5.11"
+    "@types/uuid" "^8.3.4"
+    "@types/ws" "^8.2.2"
+    buffer "^6.0.3"
+    eventemitter3 "^5.0.1"
     uuid "^8.3.2"
     ws "^8.5.0"
   optionalDependencies:
