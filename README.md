@@ -4,8 +4,6 @@
 
 This project demonstrates the use of the Wormhole TS-SDK to facilitate token transfers between different blockchain networks, after performing a deployment of the [Native Token Transfer](https://docs.wormhole.com/wormhole/native-token-transfers/overview) framework. Before running the script, you need to set up the necessary configurations and provide your deployment details.
 
-> **⚠️ Important:** Standard relaying (SR) is **deprecated**. The `index-sr.ts` example is provided for reference only. For production use, we strongly recommend using the Executor route (`index-executor.ts`) which provides automatic relaying and a better user experience.
-
 ## Prerequisites
 
 Ensure you have the following installed on your system:
@@ -102,26 +100,12 @@ executorConfig.referrerFee = {
 };
 ```
 
-## Running the Scripts
+## Running the Script
 
-This project provides two different NTT transfer examples:
-
-### 1. Basic NTT Transfer (`index-sr.ts`) ⚠️ DEPRECATED
-
-> **⚠️ Deprecation Notice:** Standard relaying (SR) is deprecated. We strongly recommend using the Executor route instead (see section 2 below) for automatic relaying, which provides a better user experience and is the recommended approach going forward.
-
-Simple NTT transfer between chains using standard relaying:
+Run the NTT transfer script using the Executor for automatic relaying:
 
 ```bash
-npx ts-node src/index-sr.ts
-```
-
-### 2. NTT Executor Transfer (`index-executor.ts`)
-
-NTT transfers using the Executor for automatic relaying
-
-```bash
-npx ts-node src/index-executor.ts
+npx ts-node src/index.ts
 ```
 
 ## Configuration Options
@@ -137,12 +121,15 @@ const dst = wh.getChain("Sepolia");
 ```
 
 ### Transfer Amount
-To modify the amount of tokens being transferred change the following line in the `index-sr.ts` or `index-executor.ts` file:
+
+To modify the amount of tokens being transferred change the following line in `src/index.ts`:
+
 ```typescript
 const amt = amount.units(
   amount.parse("1", await srcNtt.getTokenDecimals())
 );
 ```
+
 Replace ⁠"1" with your desired transfer amount as a string. The amount will be parsed according to the token's decimal places.
 
 
