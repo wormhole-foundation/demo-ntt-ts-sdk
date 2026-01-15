@@ -6,7 +6,7 @@ on:
       - main
   schedule:
     - cron: '0 6 * * 1-5' # weekly run
-  workflow_dispatch:      # allow manual trigger
+  workflow_dispatch: # allow manual trigger
 
 permissions:
   contents: read
@@ -14,5 +14,5 @@ permissions:
 
 jobs:
   typecheck-latest:
-    uses: papermoonio/workflows/.github/workflows/wormhole-demo-typecheck.yml@main
+    uses: wormhole-foundation/workflows/.github/workflows/wormhole-demo-typecheck.yml@main
     secrets: inherit
