@@ -1,6 +1,7 @@
 import {
   ChainAddress,
   TransactionId,
+  TransferState,
   Wormhole,
   amount,
   signSendWait,
@@ -21,9 +22,9 @@ import { routes } from "@wormhole-foundation/sdk";
 
 (async function () {
   // TODO: change to "Mainnet" for mainnet
-  const network = "Testnet"; 
+  const network = "Testnet";
   const wh = new Wormhole(network, [solana.Platform, evm.Platform, sui.Platform], {
-    // optional way to use private RPCs, especially recommended for mainnet 
+    // optional way to use private RPCs, especially recommended for mainnet
       "chains": {
         "Sepolia": {
           "rpc": "https://ethereum-sepolia-rpc.publicnode.com"
@@ -36,7 +37,7 @@ import { routes } from "@wormhole-foundation/sdk";
   const src = wh.getChain("BaseSepolia");
   const dst = wh.getChain("Sepolia");
   const srcSigner = await getSigner(src);
-  // TODO: change destination address 
+  // TODO: change destination address
   const dstAddress: ChainAddress = Wormhole.chainAddress("Sepolia","0x87E2");
   console.log("Source signer address:", srcSigner.address.address);
 
@@ -55,7 +56,7 @@ import { routes } from "@wormhole-foundation/sdk";
     perTokenOverrides: {
       Solana: {
         [TEST_NTT_TOKENS.Solana?.token || ""]: {
-          msgValue: 10_000_000n + 1_500_000n, 
+          msgValue: 10_000_000n + 1_500_000n,
         }
       }
     }
@@ -106,8 +107,14 @@ import { routes } from "@wormhole-foundation/sdk";
     "Ntt:WormholeTransfer",
     25 * 60 * 1000
   );
-  
+
   const sourceTxId = txids[txids.length - 1]!.txid;
   const wormholeScanUrl = `https://wormholescan.io/#/tx/${sourceTxId}?network=${network}`;
   console.log("WormholeScan URL:", wormholeScanUrl);
-})(); 
+
+  // Track the transfer status with the executor
+  const receipt = await routeInstance.resume(txids[txids.length - 1]!);
+  for await (const update of routeInstance.track(receipt, 60 * 60 * 1000)) {
+    console.log(`Transfer status: ${TransferState[update.state]}`);
+  }
+})();
