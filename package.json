@@ -3,7 +3,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk": "^4.8.0",
+    "@wormhole-foundation/sdk": "^4.9.1",
     "@wormhole-foundation/sdk-definitions-ntt": "^4.0.10",
     "@wormhole-foundation/sdk-evm-ntt": "^4.0.10",
     "@wormhole-foundation/sdk-route-ntt": "^4.0.10",
@@ -14,8 +14,8 @@
     "rpc-websockets": "7.11.0"
   },
   "overrides": {
-    "@wormhole-foundation/sdk": "^4.8.0",
-    "@wormhole-foundation/sdk-base": "^4.8.0",
-    "@wormhole-foundation/sdk-definitions": "^4.8.0"
+    "@wormhole-foundation/sdk": "^4.9.1",
+    "@wormhole-foundation/sdk-base": "^4.9.1",
+    "@wormhole-foundation/sdk-definitions": "^4.9.1"
   }
 }
