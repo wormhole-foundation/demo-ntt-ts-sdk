@@ -3,7 +3,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk": "^3.11.0",
+    "@wormhole-foundation/sdk": "^4.9.0",
     "@wormhole-foundation/sdk-definitions-ntt": "^4.0.4",
     "@wormhole-foundation/sdk-evm-ntt": "^4.0.4",
     "@wormhole-foundation/sdk-route-ntt": "^4.0.4",
