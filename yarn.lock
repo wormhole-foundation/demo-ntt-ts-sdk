@@ -1049,10 +1049,15 @@
     "@wormhole-foundation/sdk-connect" "4.9.1"
     cosmjs-types "^0.9.0"
 
-"@wormhole-foundation/sdk-definitions-ntt@4.0.10", "@wormhole-foundation/sdk-definitions-ntt@^4.0.10":
+"@wormhole-foundation/sdk-definitions-ntt@4.0.10":
   version "4.0.10"
   resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.10.tgz"
   integrity sha512-IA8XUVnO+V6F5gUjmbXMe9W0Z99JngLAq+AgAGFkptlgXb7zlYJ9Hx6Pi33F6DvnMOl/3Y5aisqw7amP7d7Aew==
+
+"@wormhole-foundation/sdk-definitions-ntt@^4.0.11":
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.11.tgz#de5ce05846306d4b385ebd8c005d31e5712a3de7"
+  integrity sha512-MohopkILljcDSHWTScyRe6ifCsYuJIFMUt8tfYzW3q5/+vkS8QCNzja0RUSj2cAkWQ+qz8Gt9q/ClNDMaUCtYA==
 
 "@wormhole-foundation/sdk-definitions@4.9.1":
   version "4.9.1"
