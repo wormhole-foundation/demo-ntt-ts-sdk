@@ -1054,10 +1054,10 @@
   resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.10.tgz"
   integrity sha512-IA8XUVnO+V6F5gUjmbXMe9W0Z99JngLAq+AgAGFkptlgXb7zlYJ9Hx6Pi33F6DvnMOl/3Y5aisqw7amP7d7Aew==
 
-"@wormhole-foundation/sdk-definitions-ntt@^4.0.11":
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.11.tgz#de5ce05846306d4b385ebd8c005d31e5712a3de7"
-  integrity sha512-MohopkILljcDSHWTScyRe6ifCsYuJIFMUt8tfYzW3q5/+vkS8QCNzja0RUSj2cAkWQ+qz8Gt9q/ClNDMaUCtYA==
+"@wormhole-foundation/sdk-definitions-ntt@4.0.12", "@wormhole-foundation/sdk-definitions-ntt@^4.0.11":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.12.tgz#4c9401de5f4a36fb5f04e5c34b6b2405c82f6086"
+  integrity sha512-+CJ08WjfOkUhgfMzUM4yNG/C7GgQ8unmRjpJSc2gjMv1vnb7NlD1PxXX2mRAVBJrLBOXqUSz1+io1zJFuPI6jg==
 
 "@wormhole-foundation/sdk-definitions@4.9.1":
   version "4.9.1"
@@ -1249,13 +1249,13 @@
     "@wormhole-foundation/sdk-connect" "4.9.1"
     "@wormhole-foundation/sdk-sui" "4.9.1"
 
-"@wormhole-foundation/sdk-sui-ntt@^4.0.10":
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-sui-ntt/-/sdk-sui-ntt-4.0.10.tgz"
-  integrity sha512-P2hS5w9OHMR8pqukg9y9WpOYudncPzKeOfcptlDM05nAsc4wytGlsFhSBHFg+1j485Ns46i7HPF7+nurVdfbuw==
+"@wormhole-foundation/sdk-sui-ntt@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-ntt/-/sdk-sui-ntt-4.0.12.tgz#0f18370fc6db62555f52b68062709525eec55dba"
+  integrity sha512-k6pMay8Drpfm8xhZz+MrYSTaL5rM3qY2TI9pXY6X35o8xw/WFn1qkwKK/JCnS2TQErnN+ytRhJ7czFTQjBcELw==
   dependencies:
     "@mysten/sui" "1.37.2"
-    "@wormhole-foundation/sdk-definitions-ntt" "4.0.10"
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.12"
 
 "@wormhole-foundation/sdk-sui-tokenbridge@4.9.1":
   version "4.9.1"
