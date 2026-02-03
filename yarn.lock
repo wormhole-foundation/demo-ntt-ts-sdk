@@ -1054,10 +1054,10 @@
   resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.10.tgz"
   integrity sha512-IA8XUVnO+V6F5gUjmbXMe9W0Z99JngLAq+AgAGFkptlgXb7zlYJ9Hx6Pi33F6DvnMOl/3Y5aisqw7amP7d7Aew==
 
-"@wormhole-foundation/sdk-definitions-ntt@^4.0.11":
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.11.tgz#de5ce05846306d4b385ebd8c005d31e5712a3de7"
-  integrity sha512-MohopkILljcDSHWTScyRe6ifCsYuJIFMUt8tfYzW3q5/+vkS8QCNzja0RUSj2cAkWQ+qz8Gt9q/ClNDMaUCtYA==
+"@wormhole-foundation/sdk-definitions-ntt@4.0.12", "@wormhole-foundation/sdk-definitions-ntt@^4.0.11":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.12.tgz#4c9401de5f4a36fb5f04e5c34b6b2405c82f6086"
+  integrity sha512-+CJ08WjfOkUhgfMzUM4yNG/C7GgQ8unmRjpJSc2gjMv1vnb7NlD1PxXX2mRAVBJrLBOXqUSz1+io1zJFuPI6jg==
 
 "@wormhole-foundation/sdk-definitions@4.9.1":
   version "4.9.1"
@@ -1087,12 +1087,20 @@
     "@wormhole-foundation/sdk-evm" "4.9.1"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-ntt@4.0.10", "@wormhole-foundation/sdk-evm-ntt@^4.0.10":
+"@wormhole-foundation/sdk-evm-ntt@4.0.10":
   version "4.0.10"
   resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-4.0.10.tgz"
   integrity sha512-OdxA4NW6794JMYcqEC17kbwBF5HYRerSUamPs/N/PmNfHz+wi8fe1Pz5si0QNy62shfxVpp87Ey2dwvUzoxJRQ==
   dependencies:
     "@wormhole-foundation/sdk-definitions-ntt" "4.0.10"
+    ethers "^6.5.1"
+
+"@wormhole-foundation/sdk-evm-ntt@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-4.0.12.tgz#829960d11895a5783588e68d924d6a9c6e5cdb42"
+  integrity sha512-mAgrBEKWnwqaGdTJpi6lGHIEu+lDYiUoZyfr35mta+HCYKkwnYRrcnUW0l5KZ+WYnmAw9oN1NqU7sNjCXFKoGw==
+  dependencies:
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.12"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-evm-portico@4.9.1":
