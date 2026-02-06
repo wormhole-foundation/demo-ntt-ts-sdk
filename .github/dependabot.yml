@@ -12,3 +12,13 @@ updates:
     # Only update Wormhole dependencies
     allow:
       - dependency-name: "@wormhole-foundation/*"
+    # Group NTT packages together (released together)
+    groups:
+      wormhole-ntt:
+        patterns:
+          - "@wormhole-foundation/sdk-*-ntt"
+      wormhole-sdk:
+        patterns:
+          - "@wormhole-foundation/*"
+        exclude-patterns:
+          - "@wormhole-foundation/sdk-*-ntt"
