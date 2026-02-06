@@ -1,0 +1,60 @@
+name: Update SDK Overrides
+
+on:
+  pull_request_target:
+    paths:
+      - "package.json"
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  update-overrides:
+    if: github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update overrides to match SDK version
+        run: |
+          SDK_VERSION=$(jq -r '.dependencies["@wormhole-foundation/sdk"]' package.json)
+          if [ "$SDK_VERSION" = "null" ] || [ -z "$SDK_VERSION" ]; then
+            echo "No @wormhole-foundation/sdk dependency found, skipping."
+            exit 0
+          fi
+
+          CURRENT_OVERRIDE=$(jq -r '.overrides["@wormhole-foundation/sdk"]' package.json)
+          if [ "$CURRENT_OVERRIDE" = "$SDK_VERSION" ]; then
+            echo "Overrides already match SDK version ($SDK_VERSION), nothing to do."
+            exit 0
+          fi
+
+          echo "Updating overrides from $CURRENT_OVERRIDE to $SDK_VERSION"
+          jq --arg v "$SDK_VERSION" '
+            .overrides["@wormhole-foundation/sdk"] = $v |
+            .overrides["@wormhole-foundation/sdk-base"] = $v |
+            .overrides["@wormhole-foundation/sdk-definitions"] = $v
+          ' package.json > package.json.tmp && mv package.json.tmp package.json
+
+      - name: Check for changes
+        id: diff
+        run: |
+          if git diff --quiet package.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated overrides
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add package.json
+          git commit -m "chore: sync overrides with @wormhole-foundation/sdk version"
+          git push

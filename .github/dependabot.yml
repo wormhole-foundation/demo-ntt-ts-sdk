@@ -17,8 +17,3 @@ updates:
       wormhole-ntt:
         patterns:
           - "@wormhole-foundation/sdk-*-ntt"
-      wormhole-sdk:
-        patterns:
-          - "@wormhole-foundation/*"
-        exclude-patterns:
-          - "@wormhole-foundation/sdk-*-ntt"
