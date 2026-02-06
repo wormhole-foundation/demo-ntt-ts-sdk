@@ -1049,15 +1049,10 @@
     "@wormhole-foundation/sdk-connect" "4.10.0"
     cosmjs-types "^0.9.0"
 
-"@wormhole-foundation/sdk-definitions-ntt@4.0.10":
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.10.tgz"
-  integrity sha512-IA8XUVnO+V6F5gUjmbXMe9W0Z99JngLAq+AgAGFkptlgXb7zlYJ9Hx6Pi33F6DvnMOl/3Y5aisqw7amP7d7Aew==
-
-"@wormhole-foundation/sdk-definitions-ntt@^4.0.11":
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.11.tgz#de5ce05846306d4b385ebd8c005d31e5712a3de7"
-  integrity sha512-MohopkILljcDSHWTScyRe6ifCsYuJIFMUt8tfYzW3q5/+vkS8QCNzja0RUSj2cAkWQ+qz8Gt9q/ClNDMaUCtYA==
+"@wormhole-foundation/sdk-definitions-ntt@4.0.12", "@wormhole-foundation/sdk-definitions-ntt@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-definitions-ntt/-/sdk-definitions-ntt-4.0.12.tgz#4c9401de5f4a36fb5f04e5c34b6b2405c82f6086"
+  integrity sha512-+CJ08WjfOkUhgfMzUM4yNG/C7GgQ8unmRjpJSc2gjMv1vnb7NlD1PxXX2mRAVBJrLBOXqUSz1+io1zJFuPI6jg==
 
 "@wormhole-foundation/sdk-definitions@4.10.0":
   version "4.10.0"
@@ -1087,12 +1082,12 @@
     "@wormhole-foundation/sdk-evm" "4.10.0"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-evm-ntt@4.0.10", "@wormhole-foundation/sdk-evm-ntt@^4.0.10":
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-4.0.10.tgz"
-  integrity sha512-OdxA4NW6794JMYcqEC17kbwBF5HYRerSUamPs/N/PmNfHz+wi8fe1Pz5si0QNy62shfxVpp87Ey2dwvUzoxJRQ==
+"@wormhole-foundation/sdk-evm-ntt@4.0.12", "@wormhole-foundation/sdk-evm-ntt@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-evm-ntt/-/sdk-evm-ntt-4.0.12.tgz#829960d11895a5783588e68d924d6a9c6e5cdb42"
+  integrity sha512-mAgrBEKWnwqaGdTJpi6lGHIEu+lDYiUoZyfr35mta+HCYKkwnYRrcnUW0l5KZ+WYnmAw9oN1NqU7sNjCXFKoGw==
   dependencies:
-    "@wormhole-foundation/sdk-definitions-ntt" "4.0.10"
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.12"
     ethers "^6.5.1"
 
 "@wormhole-foundation/sdk-evm-portico@4.10.0":
@@ -1134,14 +1129,14 @@
     "@wormhole-foundation/sdk-connect" "4.10.0"
     ethers "^6.5.1"
 
-"@wormhole-foundation/sdk-route-ntt@^4.0.10":
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-route-ntt/-/sdk-route-ntt-4.0.10.tgz"
-  integrity sha512-+eG559lcaireNSvB2YUfzkLgdWi4TVKFAW3xqItq98NA5AiaW+J5OBQPOPqzfMWcCP1oBKGncfhK0GeTPgKDYA==
+"@wormhole-foundation/sdk-route-ntt@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-route-ntt/-/sdk-route-ntt-4.0.12.tgz#d6f3da6f6afb1f4198ebae0ab0d41de766e51bf7"
+  integrity sha512-flzCkmmGQf0aXGRRAFJE89jW6Tnv2sa9Ow5HMeTbGd/WGle/V33u06h8vey+5Pv1knmWgfNkf4EZlLxQr3HmFQ==
   dependencies:
-    "@wormhole-foundation/sdk-definitions-ntt" "4.0.10"
-    "@wormhole-foundation/sdk-evm-ntt" "4.0.10"
-    "@wormhole-foundation/sdk-solana-ntt" "4.0.10"
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.12"
+    "@wormhole-foundation/sdk-evm-ntt" "4.0.12"
+    "@wormhole-foundation/sdk-solana-ntt" "4.0.12"
 
 "@wormhole-foundation/sdk-solana-cctp@4.10.0":
   version "4.10.0"
@@ -1165,16 +1160,16 @@
     "@wormhole-foundation/sdk-connect" "4.10.0"
     "@wormhole-foundation/sdk-solana" "4.10.0"
 
-"@wormhole-foundation/sdk-solana-ntt@4.0.10", "@wormhole-foundation/sdk-solana-ntt@^4.0.10":
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-4.0.10.tgz"
-  integrity sha512-iEap23R4iqNoPyzqrG3e0mZysOi/4S8aoOGMX/7Oj69P04CntR/JPPYszfeIlSuAG+y32JgYJfbyi0fFN5OZgg==
+"@wormhole-foundation/sdk-solana-ntt@4.0.12", "@wormhole-foundation/sdk-solana-ntt@^4.0.10":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-4.0.12.tgz#6d79b62bc69c1cb8848014b743d92d92128fab99"
+  integrity sha512-Ht+pHZpUO8ebzpgDnq6iFr+FDN+Pj6pcL+d1G7A81M4uMRxx+gzS2gWUDxZv920XKqO7KtbjFF4rcpyZvBXcaA==
   dependencies:
     "@coral-xyz/anchor" "0.29.0"
     "@coral-xyz/borsh" "0.29.0"
     "@solana/spl-token" "0.4.0"
     "@solana/web3.js" "^1.95.8"
-    "@wormhole-foundation/sdk-definitions-ntt" "4.0.10"
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.12"
     bn.js "5.2.1"
 
 "@wormhole-foundation/sdk-solana-tbtc@4.10.0":
@@ -1249,13 +1244,13 @@
     "@wormhole-foundation/sdk-connect" "4.10.0"
     "@wormhole-foundation/sdk-sui" "4.10.0"
 
-"@wormhole-foundation/sdk-sui-ntt@^4.0.10":
-  version "4.0.10"
-  resolved "https://registry.npmjs.org/@wormhole-foundation/sdk-sui-ntt/-/sdk-sui-ntt-4.0.10.tgz"
-  integrity sha512-P2hS5w9OHMR8pqukg9y9WpOYudncPzKeOfcptlDM05nAsc4wytGlsFhSBHFg+1j485Ns46i7HPF7+nurVdfbuw==
+"@wormhole-foundation/sdk-sui-ntt@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-sui-ntt/-/sdk-sui-ntt-4.0.12.tgz#0f18370fc6db62555f52b68062709525eec55dba"
+  integrity sha512-k6pMay8Drpfm8xhZz+MrYSTaL5rM3qY2TI9pXY6X35o8xw/WFn1qkwKK/JCnS2TQErnN+ytRhJ7czFTQjBcELw==
   dependencies:
     "@mysten/sui" "1.37.2"
-    "@wormhole-foundation/sdk-definitions-ntt" "4.0.10"
+    "@wormhole-foundation/sdk-definitions-ntt" "4.0.12"
 
 "@wormhole-foundation/sdk-sui-tokenbridge@4.10.0":
   version "4.10.0"
