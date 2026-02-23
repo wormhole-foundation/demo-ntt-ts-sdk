@@ -1160,7 +1160,7 @@
     "@wormhole-foundation/sdk-connect" "4.11.0"
     "@wormhole-foundation/sdk-solana" "4.11.0"
 
-"@wormhole-foundation/sdk-solana-ntt@4.0.14", "@wormhole-foundation/sdk-solana-ntt@^4.0.10":
+"@wormhole-foundation/sdk-solana-ntt@4.0.14", "@wormhole-foundation/sdk-solana-ntt@^4.0.14":
   version "4.0.14"
   resolved "https://registry.yarnpkg.com/@wormhole-foundation/sdk-solana-ntt/-/sdk-solana-ntt-4.0.14.tgz#e248455e6c335a30f238b5aad1ae2df300897c39"
   integrity sha512-61t7jKDhl+O0mVzmfQVKxQ0W7ExbNalLY74e7yXOxzua5mxv70gf/SFnIxZldXoWYgGICC3mC7wBd2g5DiiASg==
