@@ -7,11 +7,11 @@
   },
   "dependencies": {
     "@wormhole-foundation/sdk": "^4.12.0",
-    "@wormhole-foundation/sdk-definitions-ntt": "^4.0.14",
-    "@wormhole-foundation/sdk-evm-ntt": "^4.0.14",
-    "@wormhole-foundation/sdk-route-ntt": "^4.0.14",
+    "@wormhole-foundation/sdk-definitions-ntt": "^4.0.16",
+    "@wormhole-foundation/sdk-evm-ntt": "^4.0.16",
+    "@wormhole-foundation/sdk-route-ntt": "^4.0.16",
     "@wormhole-foundation/sdk-solana-ntt": "^4.0.14",
-    "@wormhole-foundation/sdk-sui-ntt": "^4.0.14",
+    "@wormhole-foundation/sdk-sui-ntt": "^4.0.16",
     "axios": "^1.9.0",
     "dotenv": "^16.4.5",
     "rpc-websockets": "7.11.0"
