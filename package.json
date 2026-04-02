@@ -6,7 +6,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk": "^4.14.1",
+    "@wormhole-foundation/sdk": "^4.15.0",
     "@wormhole-foundation/sdk-definitions-ntt": "^4.0.16",
     "@wormhole-foundation/sdk-evm-ntt": "^4.0.16",
     "@wormhole-foundation/sdk-route-ntt": "^4.0.16",
@@ -17,7 +17,7 @@
     "rpc-websockets": "7.11.0"
   },
   "overrides": {
-    "@wormhole-foundation/sdk": "^4.14.1",
+    "@wormhole-foundation/sdk": "^4.15.0",
     "@wormhole-foundation/sdk-base": "^4.14.1",
     "@wormhole-foundation/sdk-definitions": "^4.14.1"
   }
