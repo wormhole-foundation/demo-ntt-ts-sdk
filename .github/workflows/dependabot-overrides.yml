@@ -1,7 +1,7 @@
 name: Update SDK Overrides
 
 on:
-  pull_request_target:
+  pull_request:
     paths:
       - "package.json"
 
@@ -11,14 +11,15 @@ permissions:
 
 jobs:
   update-overrides:
-    if: github.actor == 'dependabot[bot]'
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: false
 
       - name: Update overrides to match SDK version
         run: |
@@ -52,9 +53,12 @@ jobs:
 
       - name: Commit updated overrides
         if: steps.diff.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add package.json
           git commit -m "chore: sync overrides with @wormhole-foundation/sdk version"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push

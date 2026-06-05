@@ -9,6 +9,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
     # Always bump the lower bound in package.json to match the new version,
     # preventing version drift within groups (e.g. ^4.0.10 staying behind ^4.0.12)
     versioning-strategy: increase
