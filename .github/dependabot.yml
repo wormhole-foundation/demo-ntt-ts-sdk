@@ -10,6 +10,7 @@ updates:
     schedule:
       interval: "daily"
     cooldown:
+      default: 7
       semver-patch: 3
       semver-minor: 7
       semver-major: 14
